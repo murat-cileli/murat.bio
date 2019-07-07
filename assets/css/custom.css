@@ -1,0 +1,60 @@
+.profile-image {
+    border-radius: 20px;
+    border: 5px solid #59b48d;
+}
+
+.tech-tags {
+    display: block;
+    margin-bottom: 10px;
+}
+
+footer ul li a .svg-inline--fa {
+    height: 8em;
+    width: 8em;
+}
+
+.blog-post-header h2 {
+    padding-bottom: 30px;
+}
+
+.blog-post-body img.w-100 {
+    margin: 10px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #59b48d;
+}
+
+.overview-section .item-title {
+    color: #444;
+}
+
+.skill h3.item-title {
+    margin-top: 10px;
+}
+
+.navbar-dark .navbar-toggler {
+    color: #fff;
+}
+
+@media (max-width: 991px) {
+    .header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 100000;
+    }
+
+    .main-wrapper {
+        margin-top: 80px;
+    }
+
+    .custom-blog-post-header {
+        margin-bottom: 30px;
+    }
+    
+    .card-title {
+    margin-bottom: 0.1rem;
+    margin-top: 1.2rem;
+    }
+}

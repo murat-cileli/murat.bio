@@ -42,6 +42,10 @@ h6 {
     color: #fff;
 }
 
+.item-inner .fab, .fa-html5, .fa-css3-alt {
+    color: #adadad
+}
+
 @media (max-width: 991px) {
     .header {
         position: fixed;

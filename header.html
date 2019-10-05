@@ -1,77 +1,78 @@
 <!DOCTYPE html>
 <html lang="tr">
-<head>
-    <!--#if expr="${title}"-->    
-        <title><!--#echo encoding="none" var="title"--> - Murat Çileli</title>
-    <!--#else -->
+
+    <head>
+        <!--#if expr="${title}"-->
+        <title>
+            <!--#echo encoding="none" var="title"--> - Murat Çileli</title>
+        <!--#else -->
         <title>Murat Çileli</title>
-    <!--#endif -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Atari 800 XL ile başlayıp, 8086 XT PC ve Amiga 500 ile devam ettiği teknoloji macerasına, bugün de aynı heyecanla devam eden bir yazılımcı. ">
-    <link rel=”canonical” href=”https://www.muratcileli.com/“>
-    <link rel=”alternate” href=”https://www.muratcileli.com/en” hreflang=”en” />
-    <link rel=”alternate” href=”https://www.muratcileli.com/” hreflang=”tr” />
-    <link rel="icon" type="image/png" href="favicon.png" />
-    <link id="theme-style" rel="stylesheet" href="assets/css/theme-1.min.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
-    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-4176349-13"></script>
-    <script type="text/javascript">
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-4176349-13');
-    </script>
-</head>
+        <!--#endif -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Atari 800 XL ile başlayıp, 8086 XT PC ve Amiga 500 ile devam ettiği teknoloji macerasına, bugün de aynı heyecanla devam eden bir yazılımcı. ">
+        <link rel=”canonical” href=”https://www.muratcileli.com/“> <link rel=”alternate” href=”https://www.muratcileli.com/en” hreflang=”en” />
+        <link rel=”alternate” href=”https://www.muratcileli.com/” hreflang=”tr” />
+        <link rel="icon" type="image/png" href="favicon.png" />
+        <link id="theme-style" rel="stylesheet" href="assets/css/theme-1.min.css">
+        <link rel="stylesheet" href="assets/css/custom.css">
+        <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-4176349-13"></script>
+        <script type="text/javascript">
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'UA-4176349-13');
+        </script>
+    </head>
 
-<body>
+    <body>
 
-<header class="header text-center">
-    <div class="force-overflow">
-        <h1 class="blog-name pt-lg-4 mb-0"><a href="https://www.muratcileli.com/">Murat Çileli</a></h1>
+        <header class="header text-center">
+            <div class="force-overflow">
+                <h1 class="blog-name pt-lg-4 mb-0"><a href="https://www.muratcileli.com/">Murat Çileli</a></h1>
 
-        <nav class="navbar navbar-toggleable-sm navbar-expand-lg navbar-dark">
+                <nav class="navbar navbar-toggleable-sm navbar-expand-lg navbar-dark">
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa fa-bars"></i>
-            </button>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars"></i>
+                    </button>
 
-            <div id="navigation" class="collapse navbar-collapse flex-column" >
-                <div class="profile-section pt-3 pt-lg-0">
-                    <img class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/profile.png" alt="image" >
+                    <div id="navigation" class="collapse navbar-collapse flex-column">
+                        <div class="profile-section pt-3 pt-lg-0">
+                            <img class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/profile.png" alt="image">
 
-                    <div class="bio mb-3">
-                        "Duyduğun hiçbir şeye inanma; gördüklerinin yarısına inan." - Edgar Allan Poe
+                            <div class="bio mb-3">
+                                "Duyduğun hiçbir şeye inanma; gördüklerinin yarısına inan." - Edgar Allan Poe
+                            </div>
+                            <ul class="social-list list-inline py-2 mx-auto">
+                                <li class="list-inline-item"><a href="https://twitter.com/murat_cileli" target="_blank"><i class="fab fa-twitter fa-fw"></i></a></li>
+                                <li class="list-inline-item"><a href="https://www.linkedin.com/in/murat-%C3%A7ileli-b16b72176/" target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+                                <li class="list-inline-item"><a href="https://github.com/murat-cileli" target="_blank"><i class="fab fa-github-alt fa-fw"></i></a></li>
+                                <li class="list-inline-item"><a href="https://medium.com/@murat.cileli" target="_blank"><i class="fab fa-medium fa-fw"></i></a></li>
+                            </ul>
+                            <hr>
+                        </div>
+
+                        <ul class="navbar-nav flex-column text-left">
+                            <li class="nav-item item-about">
+                                <a class="nav-link" href="/"><i class="fas fa-user fa-fw mr-2"></i>Hakkımda</a>
+                            </li>
+                            <li class="nav-item item-portfolio">
+                                <a class="nav-link" href="/neler-yaptim.html"><i class="fas fa-laptop-code fa-fw mr-2"></i>Neler Yaptım?</a>
+                            </li>
+                            <li class="nav-item item-in-the-press">
+                                <a class="nav-link" href="/basinda-projelerim.html"><i class="fas fa-newspaper fa-fw mr-2"></i>Basında Projelerim</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="/en/" hreflang="en"><i class="far fa-eye fa-fw mr-2"></i>English</a>
+                            </li>
+                        </ul>
+
                     </div>
-                    <ul class="social-list list-inline py-2 mx-auto">
-                        <li class="list-inline-item"><a href="https://twitter.com/murat_cileli" target="_blank"><i class="fab fa-twitter fa-fw"></i></a></li>
-                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/murat-%C3%A7ileli-b16b72176/" target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
-                        <li class="list-inline-item"><a href="https://github.com/murat-cileli" target="_blank"><i class="fab fa-github-alt fa-fw"></i></a></li>
-                        <li class="list-inline-item"><a href="https://medium.com/@murat.cileli" target="_blank"><i class="fab fa-medium fa-fw"></i></a></li>
-                    </ul>
-                    <hr>
-                </div>
-
-                <ul class="navbar-nav flex-column text-left">
-                    <li class="nav-item item-about">
-                        <a class="nav-link" href="https://www.muratcileli.com/"><i class="fas fa-user fa-fw mr-2"></i>Hakkımda</a>
-                    </li>
-                    <li class="nav-item item-portfolio">
-                        <a class="nav-link" href="https://www.muratcileli.com/neler-yaptim.html"><i class="fas fa-laptop-code fa-fw mr-2"></i>Neler Yaptım?</a>
-                    </li>
-                    <li class="nav-item item-in-the-press">
-                        <a class="nav-link" href="https://www.muratcileli.com/basinda-projelerim.html"><i class="fas fa-newspaper fa-fw mr-2"></i>Basında Projelerim</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="https://www.muratcileli.com/en/" hreflang="en"><i class="far fa-eye fa-fw mr-2"></i>English</a>
-                    </li>
-                </ul>
-
+                </nav>
             </div>
-        </nav>
-    </div>
-</header>
+        </header>
 
-<div class="main-wrapper">
+        <div class="main-wrapper">

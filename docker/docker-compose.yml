@@ -7,9 +7,3 @@ services:
     volumes:
       - ..:/var/www/html
       - ./site.conf:/etc/nginx/conf.d/site.conf
-    links:
-      - php
-  php:
-    image: php:7.3-fpm
-    volumes:
-      - ..:/var/www/html

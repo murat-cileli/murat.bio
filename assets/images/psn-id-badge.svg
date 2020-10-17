@@ -5,9 +5,9 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   width="66.294006mm"
-   height="20.55979mm"
-   viewBox="0 0 66.294007 20.55979"
+   width="66.555908mm"
+   height="20.821695mm"
+   viewBox="0 0 66.555909 20.821696"
    version="1.1"
    id="svg8">
   <defs
@@ -40,7 +40,7 @@
   </metadata>
   <g
      id="layer1"
-     transform="translate(-44.044609,-118.88944)">
+     transform="translate(-43.913658,-118.75849)">
     <rect
        style="fill:#ffffff;fill-opacity:0;stroke-width:0.264583"
        id="rect833"
@@ -49,13 +49,13 @@
        x="32.269718"
        y="90.839363" />
     <rect
-       style="fill:none;fill-opacity:1;stroke:none;stroke-width:0.261903;stroke-opacity:1"
+       style="opacity:0.2;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.261903;stroke-opacity:1"
        id="rect912"
        width="66.294006"
        height="20.559792"
        x="44.044609"
        y="118.88944"
-       ry="3.4295998" />
+       ry="1.7766527" />
     <path
        style="fill:#fffff9;fill-opacity:1;fill-rule:evenodd;stroke-width:0.0938475"
        class="cls-2"
@@ -68,15 +68,15 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;fill:#fffff9;fill-opacity:1;stroke:none;stroke-width:0.264583"
-       x="71.75499"
-       y="127.15828"
+       x="72.284157"
+       y="127.68745"
        id="text922"><tspan
          id="tspan920"
-         x="71.75499"
-         y="127.15828"
+         x="72.284157"
+         y="127.68745"
          style="font-size:6.35px;fill:#fffff9;fill-opacity:1;stroke-width:0.264583">PSN ID</tspan><tspan
-         x="71.75499"
-         y="135.09578"
+         x="72.284157"
+         y="135.62494"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.35px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#fffff9;fill-opacity:1;stroke-width:0.264583"
          id="tspan924">murat-cileli</tspan></text>
   </g>

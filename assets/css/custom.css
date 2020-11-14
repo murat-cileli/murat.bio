@@ -1,3 +1,10 @@
+body {
+    background-attachment: fixed;
+    background-color: #e1e6e1;
+    background-image: url(../images/overlay.png), url(../images/bg.jpg);
+    background-repeat: repeat, repeat-x;
+    background-size: 128px 128px, cover;
+}
 .profile-image {
     border-radius: 20px;
     border: 5px solid #4a6277;
@@ -27,7 +34,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #577188;
+    color: #655773;
 }
 
 .overview-section .item-title {
@@ -46,57 +53,10 @@ h6 {
     color: #adadad
 }
 
-.tags {
-    list-style: none;
-    margin: 0;
-    overflow: hidden;
-    padding: 0;
-}
-
-.tags li {
+.tags .badge {
     float: left;
-}
-
-.tag {
-    background-color: crimson;
-    color: white;
-    border-radius: 3px 0 0 3px;
-    display: inline-block;
-    height: 26px;
-    line-height: 26px;
-    padding: 0 20px 0 23px;
-    position: relative;
-    margin: 0 10px 10px 0;
-    text-decoration: none;
-    -webkit-transition: color 0.2s;
-}
-
-.tag::before {
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: inset 0 1px rgba(0, 0, 0, 0.25);
-    content: '';
-    height: 6px;
-    left: 10px;
-    position: absolute;
-    width: 6px;
-    top: 10px;
-}
-
-.tag::after {
-    background: #fff;
-    border-bottom: 13px solid transparent;
-    border-left: 10px solid crimson;
-    border-top: 13px solid transparent;
-    content: '';
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-ul.tags li a:hover {
-    text-decoration: none;
-    color: #fff;
+    margin-right: 10px;
+    margin-top: 15px;
 }
 
 @media (max-width: 991px) {
@@ -123,4 +83,52 @@ ul.tags li a:hover {
 
 .psn-id-badge {
     max-width: 170px;
+}
+
+.main-wrapper {
+    background: transparent;
+}
+
+.header {
+    background-image: url(../images/overlay.png), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+    background-size: 128px 128px, auto;
+    background-color: #353865;
+    border-right: 3px solid #4e4258;
+}
+
+.header::-webkit-scrollbar {
+    background-color: transparent;
+}
+
+.header ul.social-list a {
+    color: #44416f;
+}
+
+.header .nav-item .nav-link:hover {
+    color: rgba(255,255,255,0.6);
+}
+
+.btn {
+    background: linear-gradient(40deg,#ff6ec4,#7873f5);
+    border: none;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+}
+
+.project-card, .project-meta {
+    background: transparent;
+    box-shadow: 0 1px 11px 0 rgba(0,0,0,0.08), 0 4px 15px 0 rgba(0,0,0,0.08);
+}
+
+.project-meta {
+    margin-bottom: 20px;
+}
+
+.header #navigation .btn {
+    background-image: url(../images/overlay.png), linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);
+    background-size: 128px 128px, auto;
+    color: white;
+}
+
+.w-90 {
+    width: 90%;
 }

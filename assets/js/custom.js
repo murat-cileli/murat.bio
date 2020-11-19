@@ -12,6 +12,10 @@ function cbReady() {
     if (pathName === '/basinda-projelerim.html' || pathName === '/en/in-the-press.html') {
         document.querySelector('.item-in-the-press').style.display = 'none'; 
     }
+
+    if (pathName === '/yazilarim/') {
+        document.querySelector('.item-blog').style.display = 'none';
+    }
 }
 
 function ready(cbReady) {

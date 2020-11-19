@@ -104,8 +104,29 @@ h6 {
     background-color: transparent;
 }
 
-.header ul.s-list a {
-    color: #44416f;
+ul.s-list a {
+    color: white;
+    width: 36px;
+    height: 36px;
+    border-radius: 20%;
+    font-size: 24px;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.05);
+    transition: none;
+}
+
+ul.s-list a:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+footer ul.s-list a {
+    color: #403f6a;
+}
+
+footer ul.s-list a:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #403f6a;
 }
 
 .header .nav-item .nav-link:hover {
@@ -190,11 +211,13 @@ h6 {
     animation: blink-animation 1s steps(5, start) infinite;
     -webkit-animation: blink-animation 1s steps(5, start) infinite;
 }
+
 @keyframes blink-animation {
     to {
         visibility: hidden;
     }
 }
+
 @-webkit-keyframes blink-animation {
     to {
         visibility: hidden;

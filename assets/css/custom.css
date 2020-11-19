@@ -223,3 +223,9 @@ footer ul.s-list a:hover {
         visibility: hidden;
     }
 }
+
+@media (min-width: 1200px) {
+    .container-post {
+        max-width: 920px;
+    }
+}

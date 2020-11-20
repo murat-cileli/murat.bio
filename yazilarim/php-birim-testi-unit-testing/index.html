@@ -1,14 +1,14 @@
-<!--#set var="title" value="PHP’de Birim Testi (Unit Testing)" -->
+<!--#set var="title" value="PHP'de Birim Testi (Unit Testing)" -->
 <!--#set var="canonical" value="yazilarim/php-birim-testi-unit-testing/" -->
 <!--#include virtual="/header.html" -->
 
 <div class="container container-post">
     <div class="div-post p-4 mt-md-5">
-        <h1>PHP’de Birim Testi (Unit Testing)</h1>
+        <h1>PHP'de Birim Testi (Unit Testing)</h1>
 
         <p>
-            Aralarına benim de dahil olduğum bir çok yazılımcının, kullanıcılardan en sık duyduğu cümle “Bir tarafı yaparken diğer tarafı bozuyorsun” olsa gerek. Aslında bu da her ne kadar literatürde
-            <strong>Cowboy Coding</strong> olarak geçen bir yazılım geliştirme disiplini olsa da, “olması gereken” bir yaklaşım değil.
+            Aralarına benim de dahil olduğum bir çok yazılımcının, kullanıcılardan en sık duyduğu cümle "Bir tarafı yaparken diğer tarafı bozuyorsun" olsa gerek. Aslında bu da her ne kadar literatürde
+            <strong>Cowboy Coding</strong> olarak geçen bir yazılım geliştirme disiplini olsa da, "olması gereken" bir yaklaşım değil.
         </p>
         <p>
             Demek ki, bir yazılım son kullanıcıya gitmeden önce test edilmeli. İşte bu noktada <strong>Birim Testi (Unit
@@ -18,27 +18,22 @@
 
         <h2>Neden Birim Testi?</h2>
         <p>
-            Birim Testi yöntemine göre “birim” sizin en küçük kod parçanızı temsil eder. Bu bir fonksiyon olabildiği gibi bir sınıfın metodu da olabilir. Bir yazılımın tüm “birim”leri doğru çalışıyorsa, yazılım doğru çalışıyor demektir. Birim Testi’nin temel mantığı, parçadan bütüne doğru gitmek…
+            Birim Testi yöntemine göre "birim" sizin en küçük kod parçanızı temsil eder. Bu bir fonksiyon olabildiği gibi bir sınıfın metodu da olabilir. Bir yazılımın tüm "birim"leri doğru çalışıyorsa, yazılım doğru çalışıyor demektir. Birim Testi'nin temel mantığı, parçadan bütüne doğru gitmek…
         </p>
         <p>
-            Biraz daha anlayabilmek için şöyle bir örnek verelim. Bir otomobilin bütün parçalarının doğru çalıştığından eminsek, otomobilin doğru çalıştığından da emin olabiliriz. Aksi yaklaşımda siz otomobilinizin bütününe bakarak sorunsuz olduğunu düşünebilirsiniz ancak gerçekte hız göstergesi doğru çalışmıyor olabilir ya da göremediğiniz “birim”lerde hatalar olabilir.
+            Biraz daha anlayabilmek için şöyle bir örnek verelim. Bir otomobilin bütün parçalarının doğru çalıştığından eminsek, otomobilin doğru çalıştığından da emin olabiliriz. Aksi yaklaşımda siz otomobilinizin bütününe bakarak sorunsuz olduğunu düşünebilirsiniz ancak gerçekte hız göstergesi doğru çalışmıyor olabilir ya da göremediğiniz "birim"lerde hatalar olabilir.
         </p>
         <p>
             Diğer bir yaklaşımla Birim Testi, makine tarafından yorumlanan kod parçalarının yine makine tarafından kontrol edilmesi prensibidir.
         </p>
 
-        <p>
-            Kafanızda bir şeyler canlandı değil mi? Öyleyse size bir adet “Mind Explosion” GIF’i hediye ediyorum.
-            <img src="mind-explosion.gif"/>
-        </p>
-
         <h2>PHPUnit</h2>
 
         <p>
-            Birim Testi, programlama dillerinden veya platformlardan bağımsız bir kavramdır. JAVA’da, Delphi’de, C#.Net’te ve diğer tüm programlama dillerinde uygulanabilir. Bu yazıda PHP ile Birim Testi kavramına “kuşbaşı” bakacacağız çünkü bu hususta gerekli bilgiler esasen <a href="https://phpunit.readthedocs.io/en/9.3/" target="_blank">PHPUnit dokümantasyonunda</a> verilmiş.
+            Birim Testi, programlama dillerinden veya platformlardan bağımsız bir kavramdır. JAVA'da, Delphi'de, C#.Net'te ve diğer tüm programlama dillerinde uygulanabilir. Bu yazıda PHP ile Birim Testi kavramına "kuşbaşı" bakacacağız çünkü bu hususta gerekli bilgiler esasen <a href="https://phpunit.readthedocs.io/en/9.3/" target="_blank">PHPUnit dokümantasyonunda</a> verilmiş.
         </p>
         <p>
-            PHPUnit, PHP’de Birim Testi için kullanılan kütüphanelerden en bilineni ve en kapsamlısı. PHPUnit’i bilgisayarımdaki WAMP Server’a kurmaya çalıştıysam da, hayatın Windows’a PEAR pakedi kurmakla uğraşacak kadar uzun olmadığını olduğunu hatırlayıp Digital Ocean‘daki droplet’ime kurmaya karar verdim.
+            PHPUnit, PHP'de Birim Testi için kullanılan kütüphanelerden en bilineni ve en kapsamlısı. PHPUnit'i bilgisayarımdaki WAMP Server'a kurmaya çalıştıysam da, hayatın Windows'a PEAR pakedi kurmakla uğraşacak kadar uzun olmadığını olduğunu hatırlayıp Digital Ocean‘daki droplet'ime kurmaya karar verdim.
         </p>
         <p>
             Ne demiştik?… Birim Testi, birimlerimizi test eder. Öyleyse ilk birimimizi test edelim.
@@ -75,7 +70,7 @@ Failing asserting that false is true.
 </pre>
 
         <p>
-            Testimiz başarısız oldu! Bunun sebebi, biz assertTrue ile “TRUE” yani doğru olması gereken bir sonuç bekliyoruz ancak test ettiğimiz birim “FALSE” yani yanlışın ta kendisi.
+            Testimiz başarısız oldu! Bunun sebebi, biz assertTrue ile "TRUE" yani doğru olması gereken bir sonuç bekliyoruz ancak test ettiğimiz birim "FALSE" yani yanlışın ta kendisi.
             Şimdi kodumuzu aşağıdaki şekilde düzenleyelim.
         </p>
 <pre>
@@ -96,7 +91,7 @@ OK (1 test, 1 assertion)
             Testimiz bu sefer başarılı oldu. Çünkü sonucu TRUE olması beklenen bir fonksiyona TRUE gönderdik.
         </p>
         <p>
-            Konuyu daha iyi anlayabilmek için daha gerçekçi bir örnekle devam edelim. assertTrue fonksiyonu “Boolean” tipinde dönüşü olan metodları test etmek için kullanılır. Bunun gibi bir diğer metod ise assertEqualsolup, dönen sonucun beklenene eşit olup olmadığını kontrol eder.
+            Konuyu daha iyi anlayabilmek için daha gerçekçi bir örnekle devam edelim. assertTrue fonksiyonu "Boolean" tipinde dönüşü olan metodları test etmek için kullanılır. Bunun gibi bir diğer metod ise assertEqualsolup, dönen sonucun beklenene eşit olup olmadığını kontrol eder.
         </p>
 <pre>
 class OrnekTest extends PHPUnit_Framework_TestCase
@@ -109,8 +104,8 @@ class OrnekTest extends PHPUnit_Framework_TestCase
 }
 </pre>
 
-        <p>Bu örnekte assertEquals fonksiyonunun ilk parametresi “olması beklenen” değer, ikinci parametresi ise bizim gönderdiğimiz değer. Tahmin edeceğiniz gibi bu kod da aşağıdaki gibi Birim Testi’ni başarıyla geçecektir.</p>
-        <p>Peki projemizin mevcut kodlarını Birim Testi’ne nasıl dahil edeceğiz? Örneğin elimizde KDV hesaplaması için yazdığımız şöyle bir sınıf olsun.</p>
+        <p>Bu örnekte assertEquals fonksiyonunun ilk parametresi "olması beklenen" değer, ikinci parametresi ise bizim gönderdiğimiz değer. Tahmin edeceğiniz gibi bu kod da aşağıdaki gibi Birim Testi'ni başarıyla geçecektir.</p>
+        <p>Peki projemizin mevcut kodlarını Birim Testi'ne nasıl dahil edeceğiz? Örneğin elimizde KDV hesaplaması için yazdığımız şöyle bir sınıf olsun.</p>
 <pre>
 class KDV_Hesapla
 {
@@ -143,7 +138,7 @@ class KDVHesaplaTest extends PHPUnit_Framework_TestCase
 }
 </pre>
         <p>
-            Birim Testi’mize ilk önce sınıfımızın olduğu dosyayı dahil ettik. Sonra sınıfımızdan yeni bir nesne oluşturarak 50 TL’lik tutarın “eşit olması gereken” sonuca yani 59 TL’ye eşit olup olmadığını kontrol ettik. Bu testimiz de başarıyla sonuçlanacak.
+            Birim Testi'mize ilk önce sınıfımızın olduğu dosyayı dahil ettik. Sonra sınıfımızdan yeni bir nesne oluşturarak 50 TL'lik tutarın "eşit olması gereken" sonuca yani 59 TL'ye eşit olup olmadığını kontrol ettik. Bu testimiz de başarıyla sonuçlanacak.
         </p>
 <pre>
 OK (1 test, 1 assertion)
@@ -154,7 +149,7 @@ OK (1 test, 1 assertion)
         </p>
 
         <p>
-            Birim Testi, gün geçtikçe karmaşıklaşan yazılım geliştirme ve yazılım testi sürecinde önemli bir konu. Önce testlerin yazıldığı ve tüm testler “başarılı” olana kadar yazılımın kodlandığı <strong>Test-driven Development</strong> disiplinini araştırmanızı öneririm.
+            Birim Testi, gün geçtikçe karmaşıklaşan yazılım geliştirme ve yazılım testi sürecinde önemli bir konu. Önce testlerin yazıldığı ve tüm testler "başarılı" olana kadar yazılımın kodlandığı <strong>Test-driven Development</strong> disiplinini araştırmanızı öneririm.
         </p>
 
     </div>

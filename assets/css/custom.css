@@ -229,3 +229,11 @@ footer ul.s-list a:hover {
         max-width: 920px;
     }
 }
+
+.profile-image {
+    border: 3px solid #4e4258;
+}
+
+.semi-transparent {
+    opacity: .5;
+}

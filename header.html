@@ -1,69 +1,81 @@
 <!DOCTYPE html>
 <html lang="tr">
-    <head>
-        <!--#if expr="${title}"-->
-        <title>
-            <!--#echo encoding="none" var="title"--> - Murat Çileli</title>
-        <!--#else -->
-        <title>Murat Çileli</title>
-        <!--#endif -->
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Atari 800 XL ile başlayıp, 8086 XT PC ve Amiga 500 ile devam ettiği teknoloji macerasına, bugün de aynı heyecanla devam eden bir yazılımcı. ">
-        <!--#if expr="${canonical}"-->
-        <link rel="canonical" href='https://www.muratcileli.com/<!--#echo encoding="none" var="canonical"-->'>
-        <!--#else -->
-        <link rel="canonical" href="https://www.muratcileli.com/">
-        <!--#endif -->
-        <link rel="alternate" href="https://www.muratcileli.com/en" hreflang="en" />
-        <link rel="alternate" href="https://www.muratcileli.com/" hreflang="tr" />
-        <link rel="icon" type="image/png" href="/favicon.png" />
-        <link id="theme-style" rel="stylesheet" href="/assets/css/theme-1.min.css?v=3">
-        <link rel="stylesheet" href="/assets/css/custom.css?v=6">
-        <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-RW9P6LYFZR"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-RW9P6LYFZR');
-        </script>
-    </head>
-    <body>
-        <header class="header text-center">
-            <div class="force-overflow">
-                <h1 class="blog-name pt-lg-4 mb-0"><a href="https://www.muratcileli.com/">Murat Çileli</a></h1>
-                <nav class="navbar navbar-toggleable-sm navbar-expand-lg navbar-dark">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fa fa-bars"></i>
-                    </button>
+<head>
+    <!--#if expr="${title}"-->
+    <title>
+        <!--#echo encoding="none" var="title"--> - Murat Çileli</title>
+    <!--#else -->
+    <title>Murat Çileli</title>
+    <!--#endif -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+          content="Atari 800 XL ile başlayıp, 8086 XT PC ve Amiga 500 ile devam ettiği teknoloji macerasına, bugün de aynı heyecanla devam eden bir yazılımcı. ">
+    <!--#if expr="${canonical}"-->
+    <link rel="canonical" href='https://www.muratcileli.com/<!--#echo encoding="none" var="canonical"-->'>
+    <!--#else -->
+    <link rel="canonical" href="https://www.muratcileli.com/">
+    <!--#endif -->
+    <link rel="alternate" href="https://www.muratcileli.com/en" hreflang="en"/>
+    <link rel="alternate" href="https://www.muratcileli.com/" hreflang="tr"/>
+    <link rel="icon" type="image/png" href="/favicon.png"/>
+    <link id="theme-style" rel="stylesheet" href="/assets/css/theme-1.min.css?v=3">
+    <link rel="stylesheet" href="/assets/css/custom.css?v=6">
+    <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RW9P6LYFZR"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-RW9P6LYFZR');
+    </script>
+</head>
+<body>
+<header class="header text-center">
+    <div class="force-overflow">
+        <h1 class="blog-name pt-lg-4 mb-0"><a href="/">Murat Çileli</a></h1>
+        <nav class="navbar navbar-toggleable-sm navbar-expand-lg navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+                    aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
 
-                    <div id="navigation" class="collapse navbar-collapse flex-column">
-                        <div class="profile-section pt-3 pt-lg-0">
-                            <img class="profile-image mb-3 rounded-circle mx-auto" src="/assets/images/profile.png" alt="Murat Çileli">
-
-                            <div class="bio mb-3 semi-transparent">
-                                "Okuyarak öğreneceksin
-                                <br>ama severek <em>anlayacaksın</em>."
-                                <br>- Şems-i Tebrîzî -<br>
-                            </div>
-
-                            <ul class="s-list list-inline py-2 mx-auto mb-4">
-                                <li class="list-inline-item"><a href="https://twitter.com/murat_cileli" target="_blank"><i class="fab fa-twitter fa-fw"></i></a></li>
-                                <li class="list-inline-item"><a href="https://www.linkedin.com/in/murat-%C3%A7ileli-b16b72176/" target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
-                                <li class="list-inline-item"><a href="https://github.com/murat-cileli" target="_blank"><i class="fab fa-github-alt fa-fw"></i></a></li>
-                            </ul>
-
-                            <a class="btn w-90 mb-3 item-about" href="/"><i class="fas fa-user fa-fw mr-2"></i>Hakkımda</a>
-                            <a class="btn w-90 mb-3 item-portfolio" href="/neler-yaptim.html"><i class="fas fa-laptop-code fa-fw mr-2"></i>Neler Yaptım?</a>
-                            <a class="btn w-90 mb-3 item-in-the-press" href="/basinda-projelerim.html"><i class="fas fa-newspaper fa-fw mr-2"></i>Basında Projelerim</a>
-                            <a class="btn w-90 mb-3 item-blog" href="/yazilarim/"><i class="fas fa-pen fa-fw mr-2"></i>Yazılarım <span class="badge badge-danger blink">Yeni</span></a>
-                            <a class="btn w-90" href="/en/"><i class="far fa-eye fa-fw mr-2"></i>English</a>
-                        </div>
+            <div id="navigation" class="collapse navbar-collapse flex-column">
+                <div class="profile-section pt-3 pt-lg-0">
+                    <a href="/">
+                        <img class="profile-image mb-3 rounded-circle mx-auto" src="/assets/images/profile.png"
+                             alt="Murat Çileli">
+                    </a>
+                    <div class="bio mb-3 semi-transparent">
+                        "Okuyarak öğreneceksin
+                        <br>ama severek <em>anlayacaksın</em>."
+                        <br>- Şems-i Tebrîzî -<br>
                     </div>
-                </nav>
-            </div>
-        </header>
+                    <ul class="s-list list-inline py-2 mx-auto mb-4">
+                        <li class="list-inline-item"><a href="https://twitter.com/murat_cileli" target="_blank"><i
+                                class="fab fa-twitter fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/murat-%C3%A7ileli-b16b72176/"
+                                                        target="_blank"><i class="fab fa-linkedin-in fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="https://github.com/murat-cileli" target="_blank"><i
+                                class="fab fa-github-alt fa-fw"></i></a></li>
+                    </ul>
 
-        <div class="main-wrapper">
+                    <a class="btn w-90 mb-3 item-about" href="/"><i class="fas fa-user fa-fw mr-2"></i>Hakkımda</a>
+                    <a class="btn w-90 mb-3 item-portfolio" href="/neler-yaptim.html"><i
+                            class="fas fa-laptop-code fa-fw mr-2"></i>Neler Yaptım?</a>
+                    <a class="btn w-90 mb-3 item-in-the-press" href="/basinda-projelerim.html"><i
+                            class="fas fa-newspaper fa-fw mr-2"></i>Basında Projelerim</a>
+                    <a class="btn w-90 mb-3 item-blog" href="/yazilarim/"><i class="fas fa-pen fa-fw mr-2"></i>Yazılarım
+                        <span class="badge badge-danger blink">Yeni</span></a>
+                    <a class="btn w-90" href="/en/"><i class="far fa-eye fa-fw mr-2"></i>English</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<div class="main-wrapper">

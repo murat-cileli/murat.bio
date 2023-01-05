@@ -1,9 +1,0 @@
-version: '2'
-services:
-  nginx:
-    image: nginx:latest
-    ports:
-      - "80:80"
-    volumes:
-      - ..:/var/www/html
-      - ./site.conf:/etc/nginx/conf.d/site.conf

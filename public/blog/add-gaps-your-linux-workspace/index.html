@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="author" content="Murat Çileli" />
   <meta name="description" content="" />
-  <link rel="stylesheet" href="/css/main.min.3d76b015e05830e52552fc8086510e9bc067c0503e8e5fee9a7b5a3ed9b5f2d1.css" />
+  <link rel="stylesheet" href="/css/main.min.ac5f35c4aa5476d8acfe6f2f7fee73cf40cc74aed0155891d1fea288e1b054ad.css" />
   
   <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://murat.bio/linux-workspace-gaps.png"/>
@@ -103,24 +103,16 @@ Known Solutions There are extensions that trying to provide this feature. For ex
 <p><a href="https://wiki.archlinux.org/title/tint2">tint2</a> is a simple, light panel for GNU/Linux desktop. Apart from its purpose, it&rsquo;s suitable for adding gaps to a workspace.</p>
 <p>Let&rsquo;s start to install and configure it.</p>
 <ul>
-<li>
-<p>Install <code>tint2</code> via your package manager.</p>
-</li>
-<li>
-<p>Clone the GitHub <a href="https://github.com/murat-cileli/tint2-workspace-gaps">repository</a> that contains configuration files</p>
-</li>
-<li>
-<p>Copy <code>.tint2rc</code> files into your <code>~/.config/tint2/</code></p>
-</li>
-<li>
-<p>Launch panels with custom configuration files</p>
-<p>$ <code>tint2 -c ~/.config/tint2/tint2rc-gap-vertical-left.tint2rc</code></p>
-<p>$ <code>tint2 -c ~/.config/tint2/tint2rc-gap-vertical-right.tint2rc</code></p>
-<p>$ <code>tint2 -c ~/.config/tint2/tint2rc-gap-horizontal-top.tint2rc</code></p>
-<p>$ <code>tint2 -c ~/.config/tint2/tint2rc-gap-horizontal-bottom.tint2rc</code></p>
-</li>
+<li>Install <code>tint2</code> via your package manager.</li>
+<li>Clone the GitHub <a href="https://github.com/murat-cileli/tint2-workspace-gaps">repository</a> that contains configuration files</li>
+<li>Copy <code>.tint2rc</code> files into your <code>~/.config/tint2/</code></li>
+<li>Launch panels with custom configuration files</li>
 </ul>
-<p>I&rsquo;m using a simple BASH script to launch <code>tint2</code> panels when I logged in my desktop environment.</p>
+<pre tabindex="0"><code>$ tint2 -c ~/.config/tint2/tint2rc-gap-vertical-left.tint2rc
+$ tint2 -c ~/.config/tint2/tint2rc-gap-vertical-right.tint2rc
+$ tint2 -c ~/.config/tint2/tint2rc-gap-horizontal-top.tint2rc
+$ tint2 -c ~/.config/tint2/tint2rc-gap-horizontal-bottom.tint2rc
+</code></pre><p>I&rsquo;m using a simple BASH script to launch <code>tint2</code> panels when I logged in my desktop environment.</p>
 <h3 id="tweaks--quirks">Tweaks &amp; Quirks</h3>
 <ul>
 <li>Gap width/height can be changed with <code>panel_size</code> property.</li>
@@ -155,5 +147,13 @@ Known Solutions There are extensions that trying to provide this feature. For ex
   </article>
 
 </main>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M0QB0YC394"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-M0QB0YC394');
+</script>
 </body>
 </html>

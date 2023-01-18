@@ -33,13 +33,12 @@ Let's start to install and configure it.
 - Copy `.tint2rc` files into your `~/.config/tint2/`
 - Launch panels with custom configuration files
 
-    $ ```tint2 -c ~/.config/tint2/tint2rc-gap-vertical-left.tint2rc```
-
-    $ ```tint2 -c ~/.config/tint2/tint2rc-gap-vertical-right.tint2rc```
-
-    $ ```tint2 -c ~/.config/tint2/tint2rc-gap-horizontal-top.tint2rc```
-
-    $ ```tint2 -c ~/.config/tint2/tint2rc-gap-horizontal-bottom.tint2rc```
+```
+$ tint2 -c ~/.config/tint2/tint2rc-gap-vertical-left.tint2rc
+$ tint2 -c ~/.config/tint2/tint2rc-gap-vertical-right.tint2rc
+$ tint2 -c ~/.config/tint2/tint2rc-gap-horizontal-top.tint2rc
+$ tint2 -c ~/.config/tint2/tint2rc-gap-horizontal-bottom.tint2rc
+```
 
 I'm using a simple BASH script to launch `tint2` panels when I logged in my desktop environment.
 

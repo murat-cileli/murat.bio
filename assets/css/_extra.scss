@@ -25,10 +25,21 @@ body {
   font-size: 1.2rem;
 }
 
-.posts-list-item-description, .post .post-meta  {
+.posts-list-item-description,
+.post .post-meta {
   opacity: 0.4;
 }
 
 ul.posts-list {
   margin-top: 0;
+}
+
+pre {
+  background: #242930;
+  line-height: 1.5rem;
+}
+
+pre code {
+  font-family: "Source Code Pro", "Ubuntu Mono", "Noto Sans Mono", monospace;
+  font-size: 1rem;
 }

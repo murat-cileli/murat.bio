@@ -9,7 +9,6 @@ body {
 .post-footer {
   opacity: 0.3;
   padding: 0.5rem 0;
-  text-align: center;
   border-top: 1px solid #24293093;
   border-bottom: 1px solid #24293093;
   margin-top: 2.5rem;
@@ -21,4 +20,16 @@ body {
   padding: 0 8px;
   border: 1px solid #24293093;
   border-radius: 5px
+}
+
+.posts-list-item-title {
+  font-size: 1.2rem;
+}
+
+.posts-list-item-description, .post .post-meta  {
+  opacity: 0.4;
+}
+
+ul.posts-list {
+  margin-top: 0;
 }

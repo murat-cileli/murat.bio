@@ -2,6 +2,7 @@ baseURL = 'https://murat.bio/'
 languageCode = 'en-us'
 title = 'Murat Çileli'
 theme = "m10c"
+disqusShortname = "murat-cileli"
 
 [params]
   author = "Murat Çileli"

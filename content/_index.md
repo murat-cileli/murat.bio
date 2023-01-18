@@ -8,7 +8,7 @@ source of information and try to spend most of my time reading and researching.
 
 I'm currently working as "Lead Software Developer" in Turkiye.
 
-## Skills
+### Skills
 
 {{< skill-tags >}}
     {{< skill >}}PHP 5/7/8{{< /skill >}}
@@ -44,7 +44,7 @@ I'm currently working as "Lead Software Developer" in Turkiye.
     {{< skill >}}High Availability{{< /skill >}}
 {{< /skill-tags >}}
 
-## Past Skills
+### Past Skills
 
 {{< skill-tags >}}
     {{< skill >}}Delphi{{< /skill >}}

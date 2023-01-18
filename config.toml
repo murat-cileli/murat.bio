@@ -30,3 +30,6 @@ disqusShortname = "murat-cileli"
     icon = "instagram"
     name = "Instagram"
     url = "https://www.instagram.com/murat.cileli/"
+
+[social]
+  twitter = 'murat_cileli'

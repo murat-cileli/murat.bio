@@ -2,6 +2,8 @@
 layout: post
 title: "Add Gaps to Your Linux Workspace"
 date: 2023-01-18 13:42:10
+images:
+- linux-workspace-gaps.png
 ---
 
 First of all, let's answer the most important question, "Why"?.. It's for aesthetic purposes. I find it nice to have the wallpaper -partially- visible on my workspace. Here's my current desktop with workspace gaps on the top, right and the bottom of the screen.

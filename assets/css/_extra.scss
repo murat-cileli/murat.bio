@@ -1,15 +1,53 @@
+:root {
+  --primary: #1d1926;
+  --secondary: #241f31;
+}
+
+.app-header {
+  background-image: url(/overlay.png), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+    background-size: 128px 128px, auto;
+    background-color: #353865;
+    border-right: 3px solid #4e4258;
+    color: #fff;
+}
+
+.app-header a {
+  border: none;
+  color: #f1e5e6;
+}
+
 body {
   font-family: "Open Sans", "Segoe UI", sans-serif;
+  background-attachment: fixed;
+  background-color: #f0e1e4;
+  background-image: url(/overlay.png), url(/bg.jpg);
+  background-repeat: repeat, repeat-x;
+  background-size: 128px 128px, cover;
+  color: #4f4f4f;
+}
+
+h1, h2, h3, h4, h5, h6, .post-title {
+  color: #655773;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+.post-title {
+  font-size: 2rem;
+  margin-bottom: 0;
+  margin-top: .5rem;
 }
 
 .app-header-avatar {
   border-width: 0.3rem;
+  border-color: #f1e5e6;
 }
 
 .post-footer {
   padding: 0.5rem 0;
-  border-top: 1px solid #24293093;
-  border-bottom: 1px solid #24293093;
+  border-top: 1px solid inherit;
   margin-top: 2.5rem;
 }
 
@@ -17,12 +55,18 @@ body {
   display: inline-block;
   margin: 0 8px 8px 0;
   padding: 0 8px;
-  border: 1px solid #24293093;
-  border-radius: 5px
+  border-radius: 5px;
+  background: #dc3545;
+  color: #fff;
 }
 
 .posts-list-item-title {
   font-size: 1.2rem;
+  margin-bottom: 2.5rem;
+}
+
+.posts-list-item-description {
+  margin-top: .5rem;
 }
 
 .posts-list-item-description,
@@ -34,12 +78,43 @@ ul.posts-list {
   margin-top: 0;
 }
 
-pre {
-  background: #242930;
+.post-content>pre {
+  background-image: url(/overlay.png), linear-gradient(to top, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+  background-size: 128px 128px, auto;
+  background-color: #d23356;
+  display: block;
+  width: 100%;
+  text-shadow: black 1px 1px 1px;
+  border-radius: 5px;
   line-height: 1.5rem;
+  border-left-color: #4e4258;
+  margin: 1.5rem 0;
 }
 
 pre code {
   font-family: "Source Code Pro", "Ubuntu Mono", "Noto Sans Mono", monospace;
   font-size: 1rem;
+  color: #fff;
+}
+
+code {
+  color: inherit;
+}
+
+a {
+  color: inherit;
+  border-bottom: 1px dotted #4f4f4f;
+}
+
+a:hover {
+  color: unset;
+}
+
+.post-content img {
+  border: 5px solid #4e4258;
+  border-radius: 10px;
+}
+
+.half-opacity {
+  opacity: .5;
 }

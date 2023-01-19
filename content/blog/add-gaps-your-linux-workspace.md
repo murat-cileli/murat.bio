@@ -22,7 +22,7 @@ However, from what I've seen, dealing with Window Managers brings with it some i
 
 So, I needed a desktop-agnostic, more lightweight solution. This is where `tint2` comes into play.
 
-### Using `tint2` as a Workspace Spacer
+### Using "tint2" as a Workspace Spacer
 
 [tint2](https://wiki.archlinux.org/title/tint2) is a simple, light panel for GNU/Linux desktop. Apart from its purpose, it's suitable for adding gaps to a workspace.
 
@@ -46,7 +46,7 @@ I'm using a simple BASH script to launch `tint2` panels when I logged in my desk
 
 - Gap width/height can be changed with `panel_size` property.
 - Panels may not visible if `panel_shrink` set to 1 or 0 depending on your desktop environment.
-- If you are not using a compositing Window Manager, try to change `1` to `0` in `panel_size` property or else there will be 1 px lines around the screen.
+- If you are not using a compositing Window Manager, try to change `1` to `0` of `panel_size` property or else there will be 1px lines around the screen edges.
 
 
 To keep up to date with my latest posts, you can follow me on [LinkedIn](https://www.linkedin.com/in/murat-cileli/).

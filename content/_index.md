@@ -14,7 +14,7 @@ I work with the same passion today as I started with the Atari
 As someone who had his first online experience over BBS with a 14.4K modem, I see the Internet as a great
 source of information and try to spend most of my time reading and researching.
 
-I'm currently working as "Lead Software Developer" in Turkiye.
+I'm currently working as "Software Technical Manager" in Turkiye.
 
 ### Skills
 

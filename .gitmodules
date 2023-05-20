@@ -1,3 +1,0 @@
-[submodule "static/candle"]
-	path = static/candle
-	url = git@github.com:murat-cileli/candle-light-simulator.git

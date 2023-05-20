@@ -4,30 +4,30 @@
 }
 
 .app-header {
-    background-color: #292d32;
-    border-right: 1px solid #202327;
-    border-bottom: 1px solid #202327;
+  background-image: url(/overlay.png), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+    background-size: 128px 128px, auto;
+    background-color: #353865;
+    border-right: 3px solid #4e4258;
     color: #fff;
 }
 
 .app-header a {
   border: none;
-  color: #d1dde5;
-}
-
-.app-header-avatar {
-  border-width: 0.2rem;
-  border-color: #d1dde5;
+  color: #f1e5e6;
 }
 
 body {
   font-family: "Open Sans", "Segoe UI", sans-serif;
-  background-color: #32373d;
-  color: #d1dde1;
+  background-attachment: fixed;
+  background-color: #f0e1e4;
+  background-image: url(/overlay.png), url(/bg.jpg);
+  background-repeat: repeat, repeat-x;
+  background-size: 128px 128px, cover;
+  color: #4f4f4f;
 }
 
 h1, h2, h3, h4, h5, h6, .post-title {
-  color: #fff;
+  color: #655773;
 }
 
 h3 {
@@ -38,6 +38,11 @@ h3 {
   font-size: 2rem;
   margin-bottom: 0;
   margin-top: .5rem;
+}
+
+.app-header-avatar {
+  border-width: 0.3rem;
+  border-color: #f1e5e6;
 }
 
 .post-footer {
@@ -51,8 +56,8 @@ h3 {
   margin: 0 8px 8px 0;
   padding: 0 8px;
   border-radius: 5px;
-  background: #292d32;
-  border: 1px solid #202327;
+  background: #dc3545;
+  color: #fff;
 }
 
 .posts-list-item-title {
@@ -74,14 +79,15 @@ ul.posts-list {
 }
 
 .post-content>pre {
-  background-color: #292d32;
+  background-image: url(/overlay.png), linear-gradient(to top, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
+  background-size: 128px 128px, auto;
+  background-color: #d23356;
   display: block;
   width: 100%;
+  text-shadow: black 1px 1px 1px;
   border-radius: 5px;
   line-height: 1.5rem;
-  border: 1px solid #202327;
-  border-left-color: #d1dde1;
-  border-left-width: 5px;
+  border-left-color: #4e4258;
   margin: 1.5rem 0;
 }
 
@@ -97,7 +103,7 @@ code {
 
 a {
   color: inherit;
-  border-bottom: 1px dotted #d1dde5;
+  border-bottom: 1px dotted #4f4f4f;
 }
 
 a:hover {
@@ -105,8 +111,8 @@ a:hover {
 }
 
 .post-content img {
-  border: 5px solid #292d32;
-  border-radius: 5px;
+  border: 5px solid #4e4258;
+  border-radius: 10px;
 }
 
 .half-opacity {

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Murat Çileli"
-date: 2023-02-04 16:51:00
+date: 2022-11-10 13:42:10
 images:
 - murat-cileli.png
 ---

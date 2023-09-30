@@ -1,0 +1,43 @@
+body {
+    font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(220, 220, 220);
+}
+
+p {
+    color: rgb(170, 170, 170);
+}
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+div.container {
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+div.container header {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1% 5%;
+    border-radius: 20px;
+}
+
+div.icons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+div.icons-container a:nth-child(2) {
+    margin: 0 1.5rem;
+  }

@@ -14,7 +14,7 @@ video {
     position: fixed;
     top: 0;
     left: 0;
-  }
+}
 
 div.container {
     position: relative;
@@ -23,7 +23,7 @@ div.container {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
 
 div.container header {
     background-color: rgba(0, 0, 0, 0.5);
@@ -40,4 +40,4 @@ div.icons-container {
 
 div.icons-container a:nth-child(2) {
     margin: 0 1.5rem;
-  }
+}

@@ -41,6 +41,29 @@ div.container header {
     background-color: rgba(0, 0, 0, 0.2);
     padding: 1% 5%;
     border-radius: 20px;
+    animation: focus 3s;
+}
+
+@keyframes focus {
+    0% {
+        filter: blur(10px);
+    }
+
+    25% {
+        filter: blur(6px);
+    }
+
+    50% {
+        filter: blur(1px);
+    }
+
+    75% {
+        filter: blur(2px);
+    }
+
+    100% {
+        filter: blur(0);
+    }
 }
 
 div.icons-container {

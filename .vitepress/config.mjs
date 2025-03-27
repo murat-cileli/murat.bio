@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Murat Çileli",
-  description: "Teknolojiyle yolculuğum, Atari 800 XL ve Amiga 500 günlerinden beri devam ediyor. 8086’dan 486’ya kadar uzanan dönemi bizzat yaşayarak, bilgisayar dünyasının evrimini yakından takip ettim. Hala her gün yeni şeyler öğrenmenin heyecanını yaşıyorum.",
+  description: "Atari 800 XL ile başlayıp; 8086/286/386 PC, Amiga 500 ve 486 PC ile devam eden tutkumu, bugün de aynı heyecanla sürdürüyorum.",
   appearance: false,
   lang: 'tr-TR',
   head: [['link', { rel: 'icon', href: '/favicon.png' }]],

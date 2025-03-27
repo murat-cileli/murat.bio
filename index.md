@@ -10,11 +10,11 @@ Teknolojiyle yolculuğum, **Atari 800 XL** ve **Amiga 500** günlerinden beri de
 <Badge type="info" text="Doğum: 1981" /> <Badge type="info" text="İkamet: İstanbul" /> <Badge type="info" text="Dil: İngilizce (B2)" /> <Badge type="info" text="Eğitim: Lise" />
 
 ### Nelerle Çalışıyorum?  
-``PHP``, ``Laravel``, ``CodeIgniter``, ``Go``, ``JavaScript``, ``Node.js``, ``WebSocket``, ``RESTful APIs``, ``GNU/Linux``, ``Bash``, ``Nginx``, ``Apache``, ``Docker``, ``MySQL/MariaDB``, ``MongoDB``, ``Git``, ``Ollama``, ``LLMs``
+``PHP`` ``Laravel`` ``CodeIgniter`` ``Go`` ``JavaScript`` ``Node.js`` ``WebSocket`` ``RESTful APIs`` ``GNU/Linux`` ``Debian`` ``Ubuntu`` ``Arch`` ``Bash`` ``Nginx`` ``Apache`` ``Docker`` ``MySQL/MariaDB`` ``PostgreSQL`` ``MongoDB`` ``Git`` ``Ollama`` ``LLMs`` 
 
 ### Nelerle Çalıştım?
 
-``Delphi``, ``Object Pascal``, ``Lazarus``, ``Windows Server``, ``MS SQL Server``, ``Atari BASIC``, ``QBASIC``, ``ASP 3.x``, ``WML``, ``RTL-SDR``, ``Donanım``
+``Symfony`` ``PhoneGap`` ``Cordova`` ``Delphi`` ``Object Pascal`` ``Lazarus`` ``Windows Server`` ``MS SQL Server`` ``Atari BASIC`` ``QBASIC`` ``ASP 3.x`` ``WML`` ``Arduino`` ``RTL-SDR`` ``Donanım``
 
 ### İş Hayatım
 **2019**'dan bu yana **NicEye Group** bünyesinde çalışıyorum, şu anda **Software Development Technical Manager** pozisyonundayım.

@@ -17,7 +17,7 @@ Teknolojiyle yolculuğum, **Atari 800 XL** ve **Amiga 500** günlerinden beri de
 ``Delphi``, ``Object Pascal``, ``Lazarus``, ``Windows Server``, ``MS SQL Server``, ``Atari BASIC``, ``QBASIC``, ``ASP 3.x``, ``WML``, ``RTL-SDR``, ``Donanım``
 
 ### İş Hayatım
-**2019**'dan bu yana **NicEye Group** şirketinde çalışıyorum, şu anda **Software Development Technical Manager** pozisyonundayım.
+**2019**'dan bu yana **NicEye Group** bünyesinde çalışıyorum, şu anda **Software Development Technical Manager** pozisyonundayım.
 
 ### Yaşamım
 Amatör olarak **su altı fotoğrafçılığyla** ilgileniyorum, çekimlerimi ilgili sosyal medya hesaplarımdan paylaşmaya çalışıyorum. Sade, mütevazi yaşam tarzını benimsiyor, doğayı ve hayvanları çok seviyorum.

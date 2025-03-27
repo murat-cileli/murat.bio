@@ -5,7 +5,7 @@ title: Hakkımda
 
 ### Hakkımda
 
-Teknolojiyle yolculuğum, **Atari 800 XL** ve **Amiga 500** günlerinden beri devam ediyor. 8086’dan 486’ya kadar uzanan dönemi bizzat yaşayarak, bilgisayar dünyasının evrimini yakından takip ettim. 25 yılı aşkın süredir yazılım geliştirme ve sistem yönetimiyle uğraşıyor, **her gün yeni şeyler öğrenmenin** heyecanını yaşıyorum.
+**Atari 800 XL** ile başlayıp; **8086/286/386 PC**, **Amiga 500** ve **486 PC** ile devam ettiğim teknoloji macerasına, bugün de **aynı heyecanla** devam ediyorum. İlk çevrimiçi deneyimini, 14.4K modem ile **BBS** üzerinden yapmış biri olarak, İnternet'i büyük bir bilgi kaynağı olarak görüyorum ve zamanımın önemli bir kısmını **okumaya, araştırmaya ve geliştirmeye** ayırıyorum.
 
 <Badge type="info" text="Doğum: 1981" /> <Badge type="info" text="İkamet: İstanbul" /> <Badge type="info" text="Dil: İngilizce (B2)" /> <Badge type="info" text="Eğitim: Lise" />
 

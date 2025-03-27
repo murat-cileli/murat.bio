@@ -1,5 +1,6 @@
 ---
 layout: doc
+title: Hakkımda
 ---
 
 # Kimim?

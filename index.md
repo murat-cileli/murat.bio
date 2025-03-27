@@ -3,7 +3,7 @@ layout: doc
 title: Hakkımda
 ---
 
-# Kimim?
+### Hakkımda
 
 Teknolojiyle yolculuğum, **Atari 800 XL** ve **Amiga 500** günlerinden beri devam ediyor. 8086’dan 486’ya kadar uzanan dönemi bizzat yaşayarak, bilgisayar dünyasının evrimini yakından takip ettim. 25 yılı aşkın süredir yazılım geliştirme ve sistem yönetimiyle uğraşıyor, **her gün yeni şeyler öğrenmenin** heyecanını yaşıyorum.
 
@@ -20,4 +20,4 @@ Teknolojiyle yolculuğum, **Atari 800 XL** ve **Amiga 500** günlerinden beri de
 **2019**'dan bu yana **NicEye Group** şirketinde çalışıyorum, şu anda **Software Development Technical Manager** pozisyonundayım.
 
 ### Yaşamım
-Amatör olarak **su altı fotoğrafçılığyla** ilgileniyorum, çekimlerimi ilgili sosyal medya hesaplarımdan paylaşmaya çalışıyorum. Sade, mütevazi yaşam tarzını; doğayı ve hayvanları seviyorum.
+Amatör olarak **su altı fotoğrafçılığyla** ilgileniyorum, çekimlerimi ilgili sosyal medya hesaplarımdan paylaşmaya çalışıyorum. Sade, mütevazi yaşam tarzını benimsiyor, doğayı ve hayvanları çok seviyorum.

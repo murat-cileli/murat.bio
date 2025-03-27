@@ -6,6 +6,7 @@ export default defineConfig({
   description: "Teknolojiyle yolculuğum, Atari 800 XL ve Amiga 500 günlerinden beri devam ediyor. 8086’dan 486’ya kadar uzanan dönemi bizzat yaşayarak, bilgisayar dünyasının evrimini yakından takip ettim. Hala her gün yeni şeyler öğrenmenin heyecanını yaşıyorum.",
   appearance: false,
   lang: 'tr-TR',
+  head: [['link', { rel: 'icon', href: '/favicon.png' }]],
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

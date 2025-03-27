@@ -13,11 +13,11 @@ header {
 }
 
 .VPDoc {
-  padding: 12px 24px 96px !important;
+  padding: 0 24px 96px !important;
 }
 
 @media (min-width: 960px) {
   .VPDoc {
-      padding: 24px 32px 0 !important;
+      padding: 0 32px 0 !important;
   }
 }

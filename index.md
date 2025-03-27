@@ -14,7 +14,7 @@ Teknolojiyle yolculuğum, **Atari 800 XL** ve **Amiga 500** günlerinden beri de
 
 ### Nelerle Çalıştım?
 
-``Symfony`` ``PhoneGap`` ``Cordova`` ``Delphi`` ``Object Pascal`` ``Lazarus`` ``Windows Server`` ``MS SQL Server`` ``Atari BASIC`` ``QBASIC`` ``ASP 3.x`` ``WML`` ``Arduino`` ``RTL-SDR`` ``Donanım``
+``Symfony`` ``PhoneGap`` ``Cordova`` ``Delphi`` ``Object Pascal`` ``Lazarus`` ``Windows Server`` ``MS SQL Server`` ``Atari BASIC`` ``QBASIC`` ``ASP 3.x`` ``WML`` ``Arduino`` ``RTL-SDR`` ``PC Donanımı``
 
 ### İş Hayatım
 **2019**'dan bu yana **NicEye Group** bünyesinde çalışıyorum, şu anda **Software Development Technical Manager** pozisyonundayım.

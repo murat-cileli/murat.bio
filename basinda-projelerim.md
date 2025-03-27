@@ -18,4 +18,4 @@ Aşağıdaki haberleri ise, mesleğimle direkt ilgili olmadığı için ayrı bi
 | Haber        |      Kuruluş      |  Bağlantı |
 | ------------- | :-----------: | :----: |
 | Marmara'da müsilaj ile ilgili kısa bir röportaj ve su altı görüntülerim. | NTV - Ana Haber | [Video](https://www.youtube.com/watch?v=r5ShK_wdpL0) |
-| **Işığı Gördüm**: "Kendileri de benzer bir tecrübe yaşamış olan Kerim U. ve Murat Ç.’nin kurduğu isigigordum.com isimli internet sitesi, Türkiye’den bu deneyimi yaşayanların hikayelerine yer veriyor". | GEO Dergisi | (Eklenecek) |
+| **Işığı Gördüm**: "Kendileri de benzer bir tecrübe yaşamış olan Kerim U. ve Murat Ç.’nin kurduğu isigigordum.com isimli internet sitesi, Türkiye’den bu deneyimi yaşayanların hikayelerine yer veriyor". | GEO Dergisi | <a href="./images/basinda-geo-dergisi.jpg" target="_blank">Görsel</a> |

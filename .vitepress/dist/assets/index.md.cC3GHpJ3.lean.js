@@ -1,0 +1,1 @@
+import{_ as a,c as o,o as r,ae as d}from"./chunks/framework.tuuL-SzM.js";const u=JSON.parse('{"title":"Kimim?","description":"","frontmatter":{"layout":"doc"},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),i={name:"index.md"};function c(n,e,l,t,m,s){return r(),o("div",null,e[0]||(e[0]=[d("",10)]))}const h=a(i,[["render",c]]);export{u as __pageData,h as default};

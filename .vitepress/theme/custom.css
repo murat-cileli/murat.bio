@@ -1,0 +1,13 @@
+:root {
+  --vp-font-family-base: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  max-width: 784px;
+  margin: 0 auto !important;
+  position: relative !important;
+}
+
+.VPContent {
+  padding-top: 0 !important;
+}

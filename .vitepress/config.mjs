@@ -5,7 +5,7 @@ export default defineConfig({
   title: "Murat Çileli",
   description: "Atari 800 XL ile başlayıp; 8086/286/386 PC, Amiga 500 ve 486 PC ile devam eden tutkumu, bugün de aynı heyecanla sürdürüyorum.",
   appearance: false,
-  lang: 'tr-TR',
+  lang: 'tr',
   head: [['link', { rel: 'icon', href: '/favicon.png' }]],
 
   themeConfig: {

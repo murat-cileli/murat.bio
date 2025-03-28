@@ -9,15 +9,15 @@ title: Hakkımda
 
 <Badge type="info" text="Doğum: 1981" /> <Badge type="info" text="İkamet: İstanbul" /> <Badge type="info" text="Dil: İngilizce (B2)" /> <Badge type="info" text="Eğitim: Lise" />
 
-### Nelerle Çalışıyorum?  
+#### Nelerle Çalışıyorum?  
 ``PHP`` ``Laravel`` ``CodeIgniter`` ``Go`` ``JavaScript`` ``Node.js`` ``WebSocket`` ``RESTful APIs`` ``GNU/Linux`` ``Debian`` ``Ubuntu`` ``Arch`` ``Bash`` ``Nginx`` ``Apache`` ``Docker`` ``MySQL/MariaDB`` ``PostgreSQL`` ``MongoDB`` ``Git`` ``Ollama`` ``LLMs`` 
 
-### Nelerle Çalıştım?
+#### Nelerle Çalıştım?
 
 ``Symfony`` ``PhoneGap`` ``Cordova`` ``Delphi`` ``Object Pascal`` ``Lazarus`` ``Windows Server`` ``MS SQL Server`` ``Atari BASIC`` ``QBASIC`` ``ASP 3.x`` ``WML`` ``Arduino`` ``RTL-SDR`` ``PC Donanımı``
 
-### İş Hayatım
+#### İş Hayatım
 **2019**'dan bu yana **NicEye Group** bünyesinde çalışıyorum, şu anda **Software Development Technical Manager** pozisyonundayım.
 
-### Yaşamım
+#### Yaşamım
 Amatör olarak **tüplü dalış** ve **su altı fotoğrafçılığı** yapıyorum. Sade, mütevazi yaşam tarzını benimsiyor, doğayı ve hayvanları çok seviyorum.

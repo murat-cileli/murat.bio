@@ -6,9 +6,7 @@ title: Neler Yaptım?
 ### Neler Yaptım?
 Serbest çalıştığım ve firmamın olduğu dönemde müşterilere özel geliştirdiğim ve şirketlerin bünyelerinde çalışırken geliştirdiğim çok sayıda proje, gizlilik sözleşmeleri gereği bu sayfada yer almıyor.  
 
----
-
-### psikoruya.com <Badge type="info" text="2025" />
+#### psikoruya.com <Badge type="info" text="2025" />
 ``Laravel`` ``PHP`` ``PostgreSQL``  ``Ollama`` ``LLM`` ``CloudFlare`` ``Linux``  
 
 Yapay zeka temelli, bilimsel rüya analizi projem. Analizler, yoğunluğa göre RTX 4080 Super üzerinde çalışan Gemma:27b veya Gemini API ile yapılyor.  
@@ -17,7 +15,7 @@ Yapay zeka temelli, bilimsel rüya analizi projem. Analizler, yoğunluğa göre 
 
 ---
 
-### DBee <Badge type="info" text="2024" />
+#### DBee <Badge type="info" text="2024" />
 ``Go`` ``GoReleaser``
 
 Açık kaynak, veritabanı yönetimi konsol uygulaması. MySQL, MariaDB, ve PostgreSQL veritabanlarını destekliyor. Tasarlarken; basit, minimalist, klavye merkezli ve kullanıcı dostu olması özelliklerini göz önünde bulundurdum.  
@@ -26,7 +24,7 @@ Açık kaynak, veritabanı yönetimi konsol uygulaması. MySQL, MariaDB, ve Post
 
 ---
 
-### apiden.com <Badge type="info" text="2020" />
+#### apiden.com <Badge type="info" text="2020" />
 ``Node.js`` ``JavaScript`` ``MongoDB``
 
 Birden fazla API hizmeti vermeyi planladığım bir SaaS projemdi. API'lerdan bir tanesi olan DynaReport, DOCX biçimindeki taslak dosyalara gönderilen değişkenler ile PDF rapor çıktısı üretmeye yarıyordu. Böylece web tabanlı CRM, ERP gibi sistemlerden, sayfa düzeni olan fatura ve benzeri belgeler oluşturabiliyordu.  
@@ -35,7 +33,7 @@ Birden fazla API hizmeti vermeyi planladığım bir SaaS projemdi. API'lerdan bi
 
 ---
 
-### Compositor Switcher for KDE <Badge type="info" text="2020" />
+#### Compositor Switcher for KDE <Badge type="info" text="2020" />
 ``Qt`` ``C++`` ``Linux``
 
 KDE masaüstü ortamında, çalışan işlemlere göre "compositor" durumunu kontrol eden masaüstü yazılımım.  
@@ -45,7 +43,7 @@ KDE masaüstü ortamında, çalışan işlemlere göre "compositor" durumunu kon
 
 ---
 
-### papernic.com <Badge type="info" text="2017" />
+#### papernic.com <Badge type="info" text="2017" />
 ``Symfony`` ``PHP`` ``MySQL`` ``JavaScript`` ``Tesseract OCR`` ``Linux``  
 
 Küresel pazara yönelik geliştirdiğim, çok kullanıcılı döküman yönetim sistemi SaaS projem. Yüklenen PDF dosyalarını arka planda sayfalara ayırarak OCR uygulayabiliyordu.  
@@ -54,7 +52,7 @@ Küresel pazara yönelik geliştirdiğim, çok kullanıcılı döküman yönetim
 
 ---
 
-### ZynOS / Rom-0 Scanner <Badge type="info" text="2015" />
+#### ZynOS / Rom-0 Scanner <Badge type="info" text="2015" />
 ``C#`` ``.Net`` ``Windows Forms``
 
 Verilen IP aralığındaki, ZynOS / Rom-0 güvenlik açığı bulunan ADSL modemleri tespit eden masaüstü yazılım.  
@@ -63,7 +61,7 @@ Verilen IP aralığındaki, ZynOS / Rom-0 güvenlik açığı bulunan ADSL modem
 
 ---
 
-### kediciks.com <Badge type="info" text="2013" />
+#### kediciks.com <Badge type="info" text="2013" />
 ``OpenCart`` ``PHP`` ``MySQL`` ``JavaScript``
 
 Yalnızca kedi temalı ürünlerin satıldığı e-ticaret girişimim.  
@@ -72,14 +70,14 @@ Yalnızca kedi temalı ürünlerin satıldığı e-ticaret girişimim.
 
 ---
 
-### Hydra <Badge type="info" text="2011" />
+#### Hydra <Badge type="info" text="2011" />
 ``Delphi 7`` ``MS SQL Server``
 
 Uluslararası deniz taşımacılığı yapan şirketler için geliştirdiğim, çok kullanıcılı masaüstü yazılımım. FCL/LCL yük takibi, konşimento, fatura basımı gibi özellikleri mevcuttu.  
 
 ---
 
-### W3Edit <Badge type="info" text="2010" />
+#### W3Edit <Badge type="info" text="2010" />
 ``Lazarus`` ``Object Pascal``   
 
 Çapraz platform, WYSIWYG HTML düzenleyici masaüstü yazılımı.  
@@ -88,7 +86,7 @@ Uluslararası deniz taşımacılığı yapan şirketler için geliştirdiğim, �
 
 ---
 
-### VoizBox <Badge type="info" text="2010" />
+#### VoizBox <Badge type="info" text="2010" />
 ``PHP`` ``MySQL`` ``Flash`` ``ActionScript`` ``JavaScript``
 
 Türkiye'de ve dünyada ilk, sesli sosyal medya platformu.  
@@ -97,7 +95,7 @@ Türkiye'de ve dünyada ilk, sesli sosyal medya platformu.
 
 ---
 
-### **Web Kedisi CMS** <Badge type="info" text="2009" />
+#### **Web Kedisi CMS** <Badge type="info" text="2009" />
 ``PHP`` ``MySQL`` ``JavaScript``
 
 KOBİ'lere yönelik geliştirdiğim, kolay kullanıma sahip içerik yönetim sistemi (CMS).  
@@ -106,7 +104,7 @@ KOBİ'lere yönelik geliştirdiğim, kolay kullanıma sahip içerik yönetim sis
 
 ---
 
-### **urlgen.com** <Badge type="info" text="2009" />
+#### **urlgen.com** <Badge type="info" text="2009" />
 ``PHP`` ``MySQL`` ``JavaScript``  
 
 Para kazandıran URL kısaltma servisi konseptinin dünyadaki ilk örneği olduğunu tahmin ediyorum. Kullanıcılar, kıslatmak istedikleri URL’lere kendi AdSense hesaplarını ekleyebiliyordu.  
@@ -115,7 +113,7 @@ Para kazandıran URL kısaltma servisi konseptinin dünyadaki ilk örneği oldu�
 
 ---
 
-### MasalSayar <Badge type="info" text="2008" />
+#### MasalSayar <Badge type="info" text="2008" />
 ``Delphi 7``  
 
 Çocuklar için masal yazılımı. Çekirdek masaüstü program indirildikten sonra masal paketi satın alınarak yüklenebiliyordu. Seslendirmeler, profesyonel seslendirme sanatçıları tarafından yapıldı. Bazı masallar anonim olmakla beraber Bilge Yunus isimli masalı da ben yazmıştım.  
@@ -124,7 +122,7 @@ Para kazandıran URL kısaltma servisi konseptinin dünyadaki ilk örneği oldu�
 
 ---
 
-### ProPointer <Badge type="info" text="2008" />
+#### ProPointer <Badge type="info" text="2008" />
 ``Delphi 7``  
 
 Özel ders verenler ve sunum yapanlar için, ekranda işaretleme ve çizim yapmaya yaran masaüstü yazılımım. Özel ders verdiğim dönemde kişisel kullanımım için yazmıştım, sonrasında ürüne dönüştürdüm.  
@@ -133,7 +131,7 @@ Para kazandıran URL kısaltma servisi konseptinin dünyadaki ilk örneği oldu�
 
 ---
 
-### Arşivci 2.0 <Badge type="info" text="2007" />
+#### Arşivci 2.0 <Badge type="info" text="2007" />
 ``Delphi 7`` ``MySQL`` ``Tesseract OCR``  
 
 KOBİ'ler için çok kullanıcılı, masaüstü, evrak takip yazılımım. Basitliği, arayüzü ve kullanım kolaylığı nedeniyle tercih sebebiydi. "Keygen" yayınlanacak kadar yaygınlaşmıştı.  
@@ -142,7 +140,7 @@ KOBİ'ler için çok kullanıcılı, masaüstü, evrak takip yazılımım. Basit
 
 ---
 
-### ADSL Kota <Badge type="info" text="2004" />  
+#### ADSL Kota <Badge type="info" text="2004" />  
 ``Delphi 7``
 
 Yayınlandığı dönemde, Türkiye'nin en çok indirilen yazılımları arasında ilk sıradaydı ve popülerliğini uzun süre korudu.  

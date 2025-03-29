@@ -15,8 +15,6 @@ export default defineConfig({
     sidebar: false,
     aside: false,
     returnToTopLabel: 'Başa dön',
-
-    srcExclude: ['en/'],
     
     docFooter: {
       prev: false,

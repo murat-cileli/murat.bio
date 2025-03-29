@@ -14,7 +14,7 @@ title: Hakkımda
 
 #### Nelerle Çalıştım?
 
-``Symfony`` ``PhoneGap`` ``Cordova`` ``Delphi`` ``Object Pascal`` ``Lazarus`` ``Windows Server`` ``MS SQL Server`` ``C#.Net`` ``Windows Forms`` ``DarkBASIC`` ``Blitz3D`` ``ASP 3.x`` ``XHTML`` ``HTML 4.0`` ``WML`` ``QBASIC`` ``Amiga Workbench`` ``Atari BASIC`` ``Arduino`` ``RTL-SDR`` ``PC Donanımı`` 
+``Symfony`` ``Elasticsearch`` ``Cordova`` ``PhoneGap`` ``Delphi`` ``Object Pascal`` ``Lazarus`` ``Windows Server`` ``MS SQL Server`` ``C#.Net`` ``Windows Forms`` ``DarkBASIC`` ``Blitz3D`` ``ASP 3.x`` ``XHTML`` ``HTML 4.0`` ``WML`` ``QBASIC`` ``Amiga Workbench`` ``Atari BASIC`` ``Arduino`` ``RTL-SDR`` ``PC Donanımı`` 
 
 #### İş Hayatım
 2019'dan bu yana **NicEye Group** bünyesinde çalışıyorum, şu anda **Software Development Technical Manager** pozisyonundayım.

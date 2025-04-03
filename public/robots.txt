@@ -1,2 +1,4 @@
 User-agent: *
+Disallow: /icindekiler-gizlilik-politikasi.html
 Allow: /
+Sitemap: https://www.murat.bio/sitemap.xml

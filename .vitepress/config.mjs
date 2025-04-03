@@ -6,7 +6,7 @@ export default defineConfig({
   description: "Atari 800 XL ile başlayıp; 8086/286/386 PC, Amiga 500 ve 486 PC ile devam eden tutkumu, bugün de aynı heyecanla sürdürüyorum.",
   appearance: false,
   lang: 'tr',
-  head: [['link', { rel: 'icon', href: '/favicon.png' }]],
+  head: [['link', { rel: 'icon', type:"image/ico", href: '/favicon.ico' }]],
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

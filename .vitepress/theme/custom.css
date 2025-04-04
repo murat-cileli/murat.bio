@@ -23,6 +23,14 @@ footer a {
   text-decoration: none;
 }
 
+footer .message {
+  opacity: .8;
+}
+
+footer .copyright {
+  opacity: .3;
+}
+
 .VPContent {
   padding-top: 0 !important;
 }

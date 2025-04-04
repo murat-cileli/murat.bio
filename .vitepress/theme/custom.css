@@ -24,11 +24,15 @@ header a.title span {
 }
 
 .VPDoc {
-  padding: 0 24px 96px !important;
+  padding: 0 24px 36px !important;
 }
 
 @media (min-width: 960px) {
   .VPDoc {
     padding: 0 32px 0 !important;
+  }
+
+  div.content {
+    padding: 0 32px 64px !important;
   }
 }

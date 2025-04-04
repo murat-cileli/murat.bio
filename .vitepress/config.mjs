@@ -21,8 +21,7 @@ export default defineConfig({
     },
 
     footer: {
-      message: '<a href="https://vitepress.dev/" target="_blank">Vitepress</a>\'e teşekkürler.',
-      copyright: '9:1jnjçççfu 8:4cld rlv elhh rgpukd 8:2cşopuvşyvofkş nişşvnfn rfıd 6:4gngşc fcnsg hpö',
+      message: '<a href="https://vitepress.dev/" target="_blank">Vitepress</a>\'e teşekkürler.<br>',
     },
 
     nav: [

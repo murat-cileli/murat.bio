@@ -3,9 +3,9 @@
   --vp-c-bg: #fcfcfc;
 }
 
-body {
+body, footer {
   background-image: url(/images/bg.png);
-  background-color: #f9f9f9;
+  background-color: #f9f9f9 !important;
   background-blend-mode: overlay;
 }
 
@@ -17,6 +17,10 @@ header {
 
 header a.title span {
   font-family: "Segoe Script", cursive;
+}
+
+footer a {
+  text-decoration: none;
 }
 
 .VPContent {
@@ -33,6 +37,6 @@ header a.title span {
   }
 
   div.content {
-    padding: 0 32px 72px !important;
+    padding: 0 32px 36px !important;
   }
 }

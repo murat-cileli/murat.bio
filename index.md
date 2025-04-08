@@ -10,7 +10,7 @@ title: Hakkımda
 <Badge type="info" text="Doğum: 1981" /> <Badge type="info" text="İkamet: İstanbul" /> <Badge type="info" text="Dil: İngilizce (B2)" /> <Badge type="info" text="Eğitim: Lise" />
 
 #### Nelerle Çalışıyorum?  
-``PHP`` ``Laravel`` ``CodeIgniter`` ``Go`` ``JavaScript`` ``Node.js`` ``WebSocket`` ``RESTful API`` ``JSON`` ``OOP`` ``ORM`` ``HTML5`` ``GNU/Linux`` ``Debian`` ``Ubuntu`` ``Arch`` ``Bash`` ``Nginx`` ``Apache`` ``Docker`` ``MySQL`` ``MariaDB`` ``PostgreSQL`` ``MongoDB`` ``Git`` ``Ollama`` ``LLM`` 
+``PHP`` ``Laravel`` ``CodeIgniter`` ``Go`` ``JavaScript`` ``Node.js`` ``WebSocket`` ``RESTful API`` ``JSON`` ``OOP`` ``ORM`` ``HTML5`` ``GNU/Linux`` ``Debian`` ``Ubuntu`` ``Arch`` ``Bash`` ``Nginx`` ``Apache`` ``Docker`` ``MySQL`` ``MariaDB`` ``PostgreSQL`` ``MongoDB`` ``Git`` ``Ollama`` ``LLM`` ``PWA (Progressive Web Application)`` ``Mobil Uygulama Geliştirme``
 
 #### Nelerle Çalıştım?
 

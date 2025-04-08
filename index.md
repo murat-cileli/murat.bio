@@ -21,3 +21,7 @@ title: Hakkımda
 
 #### Yaşamım
 Amatör olarak **tüplü dalış** ve **su altı fotoğrafçılığı** yapıyorum. Sade, mütevazi yaşam tarzını benimsiyor, doğayı ve hayvanları çok seviyorum.
+
+#### Daha Fazla
+- [Neler Yaptım?](/neler-yaptim.md)
+- [Basında Projelerim](/basinda-projelerim.md)

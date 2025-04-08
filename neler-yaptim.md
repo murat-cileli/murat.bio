@@ -6,17 +6,17 @@ title: Neler Yaptım?
 ### Neler Yaptım?
 Serbest çalıştığım ve firmamın olduğu dönemde müşterilere özel geliştirdiğim ve şirketlerin bünyelerinde çalışırken geliştirdiğim çok sayıda proje, gizlilik sözleşmeleri gereği bu sayfada yer almıyor.  
 
-- #### İçindekiler <Badge type="info" text="2025" />
-``Go`` ``Linux`` ``Cloudflare`` ``Nginx`` ``Gemini API`` ``Android Studio`` ``Augument Code``
+- #### İçindekiler - Gıda Analizi <Badge type="info" text="2025" />
+``Go`` ``Linux`` ``Cloudflare`` ``Nginx`` ``Generative AI`` ``PWA (Progressive Web Application)`` ``Lit`` ``TypeScript``
 
 *Bağlantı: [Play Store](https://play.google.com/store/apps/details?id=bio.murat.icindekiler)*
 
-Türkiye'de ilk! Yapay destekli ürün/gıda analizi mobil uygulaması. Mobil cihazların kamerası ile ürünün "İçindekiler" bölümü okutulduğunda, inceleme raporu ve ürün içeriğindeki olası zararlı bileşenler eşzamanlı gösterilir.
+Türkiye'de (ve belki dünyada) ilk. Yapay destekli, gıda içeriği analizi mobil uygulaması. Mobil cihaz kamerası ile ürünün "İçindekiler" bölümü okutulduğunda, içerik raporu ve ürün içeriğindeki olası zararlı bileşenler gösterilir.
 
 ---
 
 - #### psikoruya.com <Badge type="info" text="2025" />
-``Laravel`` ``PHP`` ``PostgreSQL``  ``Ollama`` ``LLM`` ``CloudFlare`` ``Linux``  
+``Laravel`` ``PHP`` ``PostgreSQL``  ``Generative AI`` ``Ollama`` ``LLM`` ``CloudFlare`` ``Linux``  
 
 *Bağlantı: [psikoruya.com](https://psikoruya.com/)*
 

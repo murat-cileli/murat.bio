@@ -4,14 +4,14 @@ title: Neler Yaptım?
 ---
 
 ### Neler Yaptım?
-Serbest çalıştığım ve firmamın olduğu dönemde müşterilere özel geliştirdiğim ve şirketlerin bünyelerinde çalışırken geliştirdiğim çok sayıda proje, gizlilik sözleşmeleri gereği bu sayfada yer almıyor.  
+Şirketlere özel geliştirdiğim çok sayıda proje, gizlilik sözleşmeleri gereği bu sayfada yer almıyor.  
 
-- #### İçindekiler - Gıda Analizi <Badge type="info" text="2025" />
-``Go`` ``Linux`` ``Cloudflare`` ``Nginx`` ``Generative AI`` ``PWA (Progressive Web Application)`` ``Lit`` ``TypeScript``
+- #### İçindekiler <Badge type="info" text="2025" />
+``Go`` ``Linux`` ``Cloudflare`` ``Nginx`` ``Generative AI`` ``PWA (Progressive Web Application)`` ``Lit`` ``TypeScript`` ``JavaScript``
 
 *Bağlantı: [Play Store](https://play.google.com/store/apps/details?id=bio.murat.icindekiler)*
 
-Türkiye'de (ve belki dünyada) ilk. Yapay destekli, gıda içeriği analizi mobil uygulaması. Mobil cihaz kamerası ile ürünün "İçindekiler" bölümü okutulduğunda, içerik raporu ve ürün içeriğindeki olası zararlı bileşenler gösterilir.
+Türkiye'de (ve belki dünyada) ilk. Mobil cihaz kamerası ile gıda ürünü içeriği analizi. Kullanıcı, "Hastalıklarım" bölümünden yapacağı seçimler ile özelleştirilmiş sonuçlar alabilir.
 
 ---
 

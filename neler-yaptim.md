@@ -7,7 +7,7 @@ title: Neler Yaptım?
 Şirketlere özel geliştirdiğim çok sayıda proje, gizlilik sözleşmeleri gereği bu sayfada yer almıyor.  
 
 - #### İçindekiler <Badge type="info" text="2025" />
-``Go`` ``Linux`` ``Cloudflare`` ``Nginx`` ``Generative AI`` ``PWA (Progressive Web Application)`` ``Lit`` ``TypeScript`` ``JavaScript``
+``Go`` ``Linux`` ``Cloudflare`` ``Nginx`` ``Generative AI`` ``PWA (Progressive Web Application)`` ``Lit`` ``Shoelace UI`` ``TypeScript`` ``JavaScript``
 
 *Bağlantı: [Play Store](https://play.google.com/store/apps/details?id=bio.murat.icindekiler)*
 

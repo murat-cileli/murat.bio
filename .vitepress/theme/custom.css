@@ -1,12 +1,15 @@
 :root {
   --vp-font-family-base: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  --vp-c-bg: #fcfcfc;
 }
 
 body, footer {
   background-image: url(/images/bg.png);
   background-color: #f9f9f9 !important;
   background-blend-mode: overlay;
+}
+
+html.dark body, html.dark footer {
+  background-color: #1c1c1c !important;
 }
 
 header {
@@ -37,9 +40,6 @@ footer .message {
   display: flex;
   justify-content: space-around;
   margin-bottom: 1rem;
-}
-
-footer .message a {
 }
 
 footer .message::after {

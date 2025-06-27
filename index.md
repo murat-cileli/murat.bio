@@ -20,7 +20,7 @@ title: Hakkımda
 2019'dan bu yana **NicEye Group** bünyesinde çalışıyorum, şu anda **Software Development Technical Manager** pozisyonundayım.
 
 #### Yaşamım
-Amatör olarak **tüplü dalış** ve **su altı fotoğrafçılığı** yapıyorum. Sade, mütevazi yaşam tarzını benimsiyor, doğayı ve hayvanları çok seviyorum.
+Amatör olarak **tüplü dalış** ve **su altı fotoğrafçılığı** yapıyorum. Münzevi yaşam tarzını benimsiyor, doğayı ve hayvanları çok seviyorum.
 
 #### Daha Fazla
 - [Neler Yaptım?](/neler-yaptim.md)

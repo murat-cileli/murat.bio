@@ -2,16 +2,6 @@
   --vp-font-family-base: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body, footer {
-  background-image: url(/images/bg.png);
-  background-color: #f9f9f9 !important;
-  background-blend-mode: overlay;
-}
-
-html.dark body, html.dark footer {
-  background-color: #1c1c1c !important;
-}
-
 header {
   max-width: 784px;
   margin: 0 auto !important;

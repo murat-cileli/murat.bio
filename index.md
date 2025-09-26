@@ -10,7 +10,7 @@ title: Hakkımda
 <Badge type="info" text="Doğum: 1981" /> <Badge type="info" text="İkamet: İstanbul" /> <Badge type="info" text="Dil: İngilizce (B2)" /> <Badge type="info" text="Eğitim: Lise" />
 
 #### Nelerle Çalışıyorum?  
-``PHP`` ``Laravel`` ``CodeIgniter`` ``Go`` ``JavaScript`` ``Node.js`` ``WebSocket`` ``RESTful API`` ``JSON`` ``OOP`` ``ORM`` ``HTML5`` ``GNU/Linux`` ``Debian`` ``Ubuntu`` ``Arch`` ``Bash`` ``Nginx`` ``Apache`` ``Docker`` ``MySQL`` ``MariaDB`` ``PostgreSQL`` ``MongoDB`` ``Git`` ``Ollama`` ``LLM`` ``PWA (Progressive Web Application)``
+``PHP`` ``Laravel`` ``CodeIgniter`` ``Go`` ``JavaScript`` ``Node.js`` ``WebSocket`` ``RESTful API`` ``JSON`` ``OOP`` ``ORM`` ``HTML5`` ``GNU/Linux`` ``Debian`` ``Ubuntu`` ``Arch`` ``Bash`` ``Nginx`` ``Apache`` ``Docker`` ``MySQL`` ``MariaDB`` ``PostgreSQL`` ``MongoDB`` ``Git`` ``Ollama`` ``LLMs`` ``PWA (Progressive Web Applications)``
 
 #### Nelerle Çalıştım?
 
@@ -20,7 +20,7 @@ title: Hakkımda
 2019'dan bu yana **NicEye Group** bünyesinde çalışıyorum, şu anda **Software Development Technical Manager** pozisyonundayım.
 
 #### Yaşamım
-Amatör olarak **tüplü dalış** ve **su altı fotoğrafçılığı** yapıyorum. Münzevi yaşam tarzını benimsiyor, doğayı ve hayvanları çok seviyorum.
+Amatör olarak **tüplü dalış** ve **su altı fotoğrafçılığı** yapıyorum. Münzevî yaşam tarzını tercih ediyor, doğayı ve hayvanları çok seviyorum.
 
 #### Daha Fazla
 - [Neler Yaptım?](/neler-yaptim.md)

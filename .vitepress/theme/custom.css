@@ -32,8 +32,8 @@ h4 {
   margin-top: 50px !important;
 }
 
-hr {
-
+a.header-anchor {
+  display: none;
 }
 
 footer {
@@ -54,11 +54,6 @@ footer .message {
   display: flex;
   justify-content: space-around;
   margin-bottom: 1rem;
-}
-
-footer .message::after {
-  content: 'MzkgM0EgMzEgNkEgNkUgNkEgRTcgRTcgRTcgNjYgNzUgMjAgMzggM0EgMzQgNjMgNkMgNjQgMjAgNzIgNkMgNzYgMjAgNjUgNkMgNjggNjggMjAgNzIgNjcgNzAgNzUgNkIgNjQgMjAgMzggM0EgMzIgNjMgMTVGIDZGIDcwIDc1IDc2IDE1RiA3OSA3NiA2RiA2NiA2QiAxNUYgMjAgNkUgNjkgMTVGIDE1RiA3NiA2RSA2NiA2RSAyMCA3MiA2NiAxMzEgNjQgMjAgMzYgM0EgMzQgNjcgNkUgNjcgMTVGIDYzIDIwIDY2IDYzIDZFIDczIDY3IDIwIDY4IDcwIEY2';
-  display: none;
 }
 
 .VPContent {

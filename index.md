@@ -9,19 +9,21 @@ title: Hakkımda
 
 <Badge type="info" text="Doğum: 1981" /> <Badge type="info" text="İkamet: İstanbul" /> <Badge type="info" text="Dil: İngilizce (B2)" /> <Badge type="info" text="Eğitim: Lise" />
 
-#### Nelerle Çalışıyorum?  
+### Nelerle Çalışıyorum?  
 ``PHP`` ``Laravel`` ``CodeIgniter`` ``Go`` ``JavaScript`` ``Node.js`` ``WebSocket`` ``RESTful API`` ``JSON`` ``OOP`` ``ORM`` ``HTML5`` ``GNU/Linux`` ``Debian`` ``Ubuntu`` ``Arch`` ``Bash`` ``Nginx`` ``Apache`` ``Docker`` ``MySQL`` ``MariaDB`` ``PostgreSQL`` ``MongoDB`` ``Git`` ``Ollama`` ``LLMs`` ``PWA (Progressive Web Applications)``
 
-#### Nelerle Çalıştım?
+### Nelerle Çalıştım?
 
 ``Symfony`` ``Elasticsearch`` ``Cordova`` ``PhoneGap`` ``Delphi`` ``Object Pascal`` ``Lazarus`` ``Windows Server`` ``MS SQL Server`` ``C#.Net`` ``Windows Forms`` ``DarkBASIC`` ``Blitz3D`` ``ASP 3.x`` ``XHTML`` ``HTML 4.0`` ``WML`` ``QBASIC`` ``Amiga Workbench`` ``Atari BASIC`` ``Arduino`` ``RTL-SDR`` ``PC Donanımı`` 
 
-#### İş Hayatım
+### İş Hayatım
 2019'dan bu yana **NicEye Group** bünyesinde çalışıyorum, şu anda **Software Development Technical Manager** pozisyonundayım.
 
-#### Yaşamım
+### Yaşamım
 Amatör olarak **tüplü dalış** ve **su altı fotoğrafçılığı** yapıyorum. Münzevî yaşam tarzını tercih ediyor, doğayı ve hayvanları çok seviyorum.
 
-#### Daha Fazla
-- [Neler Yaptım?](/neler-yaptim.md)
-- [Basında Projelerim](/basinda-projelerim.md)
+### Bağlantılar
+
+[Neler Yaptım?](/neler-yaptim.md)  
+
+[Basında Projelerim](/basinda-projelerim.md)

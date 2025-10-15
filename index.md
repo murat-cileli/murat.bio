@@ -7,7 +7,7 @@ title: Hakkımda
 
 **Atari 800 XL** ile başlayıp; **8086/286/386 PC**, **Amiga 500** ve **486 PC** ile devam eden tutkumu, bugün de **aynı heyecanla** sürdürüyorum. İlk çevrimiçi deneyimini, 14.4K modem ile **BBS** üzerinden yapmış biri olarak, İnternet'i büyük bir bilgi kaynağı olarak görüyorum ve zamanımın önemli bir kısmını **okumaya, araştırmaya** ve **geliştirmeye** ayırıyorum.
 
-<Badge type="info" text="Doğum: 1981" /> <Badge type="info" text="İkamet: İstanbul" /> <Badge type="info" text="Dil: İngilizce (B2)" /> <Badge type="info" text="Eğitim: Lise" />
+<Badge type="info" text="1981" /> <Badge type="info" text="İstanbul" /> <Badge type="info" text="İngilizce (B1-2)" /> <Badge type="info" text="Lise" />
 
 ### Nelerle Çalışıyorum?  
 ``PHP`` ``Laravel`` ``CodeIgniter`` ``Go`` ``JavaScript`` ``Node.js`` ``WebSocket`` ``RESTful API`` ``JSON`` ``OOP`` ``ORM`` ``HTML5`` ``GNU/Linux`` ``Debian`` ``Ubuntu`` ``Arch`` ``Bash`` ``Nginx`` ``Apache`` ``Docker`` ``MySQL`` ``MariaDB`` ``PostgreSQL`` ``MongoDB`` ``Git`` ``Ollama`` ``LLMs`` ``PWA (Progressive Web Applications)``

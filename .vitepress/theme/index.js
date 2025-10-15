@@ -1,7 +1,6 @@
 // https://vitepress.dev/guide/custom-theme
 import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme-without-fonts'
-import "@catppuccin/vitepress/theme/frappe/lavender.css";
 import './custom.css'
 
 /** @type {import('vitepress').Theme} */

@@ -7,8 +7,5 @@
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview",
     "docs:deploy": "npm run docs:build && git add . && git commit -m\"Update\" && git push"
-  },
-  "dependencies": {
-    "@catppuccin/vitepress": "^0.1.2"
   }
 }

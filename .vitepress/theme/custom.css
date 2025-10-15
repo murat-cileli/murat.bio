@@ -1,5 +1,6 @@
 :root {
   --vp-font-family-base: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --vp-c-gutter: #88888822;
 }
 
 header {

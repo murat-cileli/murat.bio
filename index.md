@@ -16,11 +16,8 @@ title: Hakkımda
 
 ``Symfony`` ``Elasticsearch`` ``Cordova`` ``PhoneGap`` ``Delphi`` ``Object Pascal`` ``Lazarus`` ``Windows Server`` ``MS SQL Server`` ``C#.Net`` ``Windows Forms`` ``DarkBASIC`` ``Blitz3D`` ``ASP 3.x`` ``XHTML`` ``HTML 4.0`` ``WML`` ``QBASIC`` ``Amiga Workbench`` ``Atari BASIC`` ``Arduino`` ``RTL-SDR`` ``PC Donanımı`` 
 
-### İş Hayatım
-2019'dan bu yana **NicEye Group** bünyesinde çalışıyorum, şu anda **Software Development Technical Manager** pozisyonundayım.
-
 ### Yaşamım
-Amatör olarak **tüplü dalış** ve **su altı fotoğrafçılığı** yapıyorum. Münzevî yaşam tarzını tercih ediyor, doğayı ve hayvanları çok seviyorum.
+Amatör olarak tüplü dalış ve su altı fotoğrafçılığı yapıyorum. YouTube'da "retro" oyunlar üzerine <a href="https://www.youtube.com/@muratsretroplay" target="_blank">Murat's Retro Play</a> ve yazılım geliştirme üzerine <a href="https://www.youtube.com/@istemciy" target="_blank">İstemci</a> kanallarında içerikler yayınlıyorum. Münzevî yaşam tarzını tercih ediyor, doğayı ve hayvanları çok seviyorum.
 
 ### Bağlantılar
 

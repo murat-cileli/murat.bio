@@ -16,8 +16,8 @@ title: Hakkımda
 
 ``Symfony`` ``Elasticsearch`` ``Cordova`` ``PhoneGap`` ``Delphi`` ``Object Pascal`` ``Lazarus`` ``Windows Server`` ``MS SQL Server`` ``C#.Net`` ``Windows Forms`` ``DarkBASIC`` ``Blitz3D`` ``ASP 3.x`` ``XHTML`` ``HTML 4.0`` ``WML`` ``QBASIC`` ``Amiga Workbench`` ``Atari BASIC`` ``Arduino`` ``RTL-SDR`` ``PC Donanımı`` 
 
-### Yaşamım
-YouTube'da "retro" oyunlar üzerine <a href="https://www.youtube.com/@muratsretroplay?sub_confirmation=1" target="_blank">Murat's Retro Play</a> ve yazılım geliştirme üzerine <a href="https://www.youtube.com/@istemci?sub_confirmation=1" target="_blank">İstemci</a> kanallarında içerikler yayınlıyorum. Amatör olarak tüplü dalış ve su altı fotoğrafçılığı yapıyorum. Münzevî yaşam tarzını tercih ediyor, doğayı ve hayvanları çok seviyorum.
+### Neler Yapıyorum?
+YouTube'da, <a href="https://www.youtube.com/@istemci?sub_confirmation=1" target="_blank">İstemci</a> kanalımda, yazılım ve yazılım geliştirme konularında içerik üretiyorum. Amatör olarak tüplü dalış ve su altı fotoğrafçılığı yapıyorum. Münzevî yaşam tarzını tercih ediyor, doğayı ve hayvanları çok seviyorum.
 
 ### Bağlantılar
 

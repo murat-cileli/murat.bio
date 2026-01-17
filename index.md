@@ -19,7 +19,7 @@ title: Hakkımda
 ### Neler Yapıyorum?
 YouTube'da, <a href="https://www.youtube.com/@istemci?sub_confirmation=1" target="_blank">İstemci</a> kanalımda, yazılım ve yazılım geliştirme konularında içerik üretiyorum. Amatör olarak tüplü dalış ve su altı fotoğrafçılığı yapıyorum. Münzevî yaşam tarzını tercih ediyor, doğayı ve hayvanları çok seviyorum.
 
-### Bağlantılar
+### Başka?
 
 [Neler Yaptım?](/neler-yaptim.md)  
 

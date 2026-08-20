@@ -96,9 +96,9 @@ body {
   width: 100%;
   min-width: 320px;
   min-height: 100vh;
-  line-height: 24px;
+  line-height: 28px;
   font-family: var(--font-base);
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   color: var(--c-text-1);
   background-color: var(--c-bg);
@@ -115,8 +115,8 @@ h4,
 h5,
 h6 {
   margin: 0;
-  line-height: 24px;
-  font-size: 16px;
+  line-height: 28px;
+  font-size: 18px;
   font-weight: 400;
   overflow-wrap: break-word;
 }
@@ -212,7 +212,7 @@ button {
   height: 1px;
   padding: 8px 16px;
   border-radius: 8px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   color: var(--c-brand-1);
   background-color: var(--c-bg);
@@ -296,7 +296,7 @@ button {
   border-bottom: 1px solid transparent;
   width: 100%;
   height: var(--nav-height);
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   color: var(--c-text-1);
   transition: opacity 0.25s;
@@ -339,7 +339,7 @@ button {
   align-items: center;
   padding: 0 12px;
   line-height: var(--nav-height);
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 500;
   color: var(--c-text-1);
   transition: color 0.25s;
@@ -624,7 +624,7 @@ html:has(.nav-toggle:checked) {
   border-bottom: 1px solid var(--c-divider);
   padding: 12px 0 11px;
   line-height: 24px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: var(--c-text-1);
   transition: border-color 0.25s, color 0.25s;
@@ -721,13 +721,13 @@ html:has(.nav-toggle:checked) {
 
 .doc-body h1 {
   letter-spacing: -0.02em;
-  line-height: 40px;
-  font-size: 28px;
+  line-height: 42px;
+  font-size: 30px;
 }
 
 @media (min-width: 768px) {
   .doc-body h1 {
-    font-size: 32px;
+    font-size: 34px;
   }
 }
 
@@ -736,15 +736,15 @@ html:has(.nav-toggle:checked) {
   border-top: 1px solid var(--c-divider);
   padding-top: 24px;
   letter-spacing: -0.02em;
-  line-height: 32px;
-  font-size: 24px;
+  line-height: 36px;
+  font-size: 26px;
 }
 
 .doc-body h3 {
   margin: 32px 0 0;
   letter-spacing: -0.01em;
-  line-height: 28px;
-  font-size: 20px;
+  line-height: 30px;
+  font-size: 22px;
 }
 
 /* Proje / haber başlıkları: soldan çizgili etiket görünümü */
@@ -757,14 +757,14 @@ html:has(.nav-toggle:checked) {
   border-radius: 0 10px 10px 0;
   padding: 10px;
   letter-spacing: -0.01em;
-  line-height: 24px;
-  font-size: 18px;
+  line-height: 28px;
+  font-size: 20px;
   background: var(--code-bg);
 }
 
 .doc-body p {
   margin: 16px 0;
-  line-height: 28px;
+  line-height: 30px;
 }
 
 .doc-body .badge-row {
@@ -827,8 +827,8 @@ html:has(.nav-toggle:checked) {
   border: 1px solid transparent;
   border-radius: 12px;
   padding: 0 10px;
-  line-height: 22px;
-  font-size: 12px;
+  line-height: 24px;
+  font-size: 13px;
   font-weight: 500;
   transform: translateY(-2px);
 }
@@ -881,7 +881,7 @@ html:has(.nav-toggle:checked) {
 .footer-social,
 .footer-copyright {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 500;
   color: var(--c-text-2);
 }
@@ -936,15 +936,15 @@ html:has(.nav-toggle:checked) {
   padding-top: 12px;
   border-top: 1px solid var(--c-divider);
   letter-spacing: 2px;
-  line-height: 20px;
-  font-size: 20px;
+  line-height: 24px;
+  font-size: 22px;
   font-weight: 700;
 }
 
 .not-found .quote {
   margin: 8px auto 24px;
   max-width: 256px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: var(--c-text-2);
 }
@@ -954,7 +954,7 @@ html:has(.nav-toggle:checked) {
   border: 1px solid var(--c-brand-1);
   border-radius: 16px;
   padding: 3px 16px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: var(--c-brand-1);
   transition: border-color 0.25s, color 0.25s;

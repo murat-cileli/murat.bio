@@ -17,7 +17,7 @@
   --c-indigo-2: #3a5ccc;
 
   /* Yüzeyler */
-  --c-bg: #ffffff;
+  --c-bg: #efefef;
   --c-bg-elv: #ffffff;
 
   /* Çizgiler */
@@ -25,7 +25,7 @@
   --c-gutter: #88888822;
 
   /* Metin */
-  --c-text-1: #3c3c43;
+  --c-text-1: #666;
   --c-text-2: #67676c;
 
   /* Marka */
@@ -264,7 +264,6 @@ button {
   border-radius: 50%;
   filter: blur(70px);
   will-change: transform;
-  opacity: .1 !important;
 }
 
 .orb-1 {
@@ -953,7 +952,7 @@ html:has(.nav-toggle:checked) {
   margin-top: 48px;
   border: 1px solid var(--c-divider);
   border-left: 5px solid var(--c-brand-1);
-  border-bottom: 0;
+  border-bottom: 1px solid var(--c-divider);
   border-radius: 10px 10px 0 0;
   padding: 14px 18px;
   background: var(--c-bg-elv);

@@ -301,22 +301,22 @@ button {
 @media (prefers-color-scheme: light) {
   .orb-1 {
     background: radial-gradient(circle at 30% 30%, #0b0310, #ff6f91);
-    opacity: 0.25;
+    opacity: 0.1;
   }
 
   .orb-2 {
     background: radial-gradient(circle at 30% 30%, #a1c4fd, #6a8dff);
-    opacity: 0.25;
+    opacity: 0.1;
   }
 
   .orb-3 {
     background: radial-gradient(circle at 30% 30%, #a8edea, #4fd1c5);
-    opacity: 0.25;
+    opacity: 0.1;
   }
 
   .orb-4 {
     background: radial-gradient(circle at 30% 30%, #fbc2eb, #d68bff);
-    opacity: 0.25;
+    opacity: 0.1;
   }
 }
 

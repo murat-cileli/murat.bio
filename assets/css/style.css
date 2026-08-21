@@ -179,6 +179,7 @@ button {
 }
 
 @media (prefers-reduced-motion: reduce) {
+
   *,
   *::before,
   *::after {
@@ -371,7 +372,7 @@ button {
   transition: color 0.25s;
 }
 
-.social-link > svg {
+.social-link>svg {
   width: 20px;
   height: 20px;
   fill: currentColor;
@@ -389,7 +390,7 @@ button {
   }
 }
 
-.nav-menu + .nav-social-links::before {
+.nav-menu+.nav-social-links::before {
   margin-right: 8px;
   margin-left: 8px;
   width: 1px;
@@ -530,27 +531,27 @@ button {
   transform: translateX(8px);
 }
 
-.nav-toggle:focus-visible ~ .site-header .hamburger-box {
+.nav-toggle:focus-visible~.site-header .hamburger-box {
   outline: 2px solid var(--c-brand-1);
   outline-offset: 4px;
 }
 
-.nav-toggle:checked ~ .site-header .hamburger-box .top {
+.nav-toggle:checked~.site-header .hamburger-box .top {
   top: 6px;
   transform: translateX(0) rotate(225deg);
 }
 
-.nav-toggle:checked ~ .site-header .hamburger-box .middle {
+.nav-toggle:checked~.site-header .hamburger-box .middle {
   top: 6px;
   transform: translateX(16px);
 }
 
-.nav-toggle:checked ~ .site-header .hamburger-box .bottom {
+.nav-toggle:checked~.site-header .hamburger-box .bottom {
   top: 6px;
   transform: translateX(0) rotate(135deg);
 }
 
-.nav-toggle:checked ~ .site-header .nav-bar {
+.nav-toggle:checked~.site-header .nav-bar {
   border-bottom: 1px solid var(--c-divider);
   transition: none;
 }
@@ -585,7 +586,7 @@ button {
   transition: opacity 0.25s, visibility 0.25s;
 }
 
-.nav-toggle:checked ~ .nav-screen {
+.nav-toggle:checked~.nav-screen {
   opacity: 1;
   visibility: visible;
 }
@@ -615,7 +616,7 @@ html:has(.nav-toggle:checked) {
   transition: transform 0.25s ease;
 }
 
-.nav-toggle:checked ~ .nav-screen .nav-screen-container {
+.nav-toggle:checked~.nav-screen .nav-screen-container {
   transform: translateY(0);
 }
 
@@ -744,7 +745,7 @@ html:has(.nav-toggle:checked) {
   margin: 32px 0 0;
   letter-spacing: -0.01em;
   line-height: 30px;
-  font-size: 22px;
+  font-size: 1.4rem;
 }
 
 /* Proje / haber başlıkları: soldan çizgili etiket görünümü */
@@ -758,8 +759,130 @@ html:has(.nav-toggle:checked) {
   padding: 10px;
   letter-spacing: -0.01em;
   line-height: 28px;
-  font-size: 20px;
+  font-size: 1.4rem;
   background: var(--code-bg);
+}
+
+.margin-top-32px {
+  margin-top: 32px !important;
+}
+
+/* Proje listesi: her başlık, bağlantı, teknoloji ve açıklamayı tek bir kayıt
+   gibi okutan, sade çerçeveli düzen. */
+.projects-page .doc-body h4 {
+  width: 100%;
+  margin-top: 48px;
+  border: 1px solid var(--c-divider);
+  border-left: 5px solid var(--c-brand-1);
+  border-bottom: 0;
+  border-radius: 10px 10px 0 0;
+  padding: 14px 18px;
+  background: var(--c-bg-elv);
+}
+
+.projects-page .doc-body h4+p,
+.projects-page .doc-body h4+p+p,
+.projects-page .doc-body h4+p+p+p {
+  margin: 0;
+  border-right: 1px solid var(--c-divider);
+  border-left: 1px solid var(--c-divider);
+  padding-right: 18px;
+  padding-left: 22px;
+}
+
+.projects-page .doc-body h4+p {
+  padding-top: 14px;
+  padding-bottom: 8px;
+  line-height: 26px;
+  overflow-wrap: anywhere;
+}
+
+.projects-page .doc-body h4+p+p {
+  padding-top: 8px;
+  padding-bottom: 12px;
+  line-height: 28px;
+}
+
+.projects-page .doc-body h4+p+p+p {
+  border-bottom: 1px solid var(--c-divider);
+  border-radius: 0 0 10px 10px;
+  padding-top: 12px;
+  padding-bottom: 18px;
+}
+
+.projects-page .doc-body h4+p a {
+  font-weight: 400;
+  text-decoration-color: var(--c-divider);
+}
+
+.projects-page .doc-body h4+p+p code {
+  display: inline-block;
+  margin: 2px 2px 2px 0;
+}
+
+/* Basın kayıtları aynı düzeni, teknoloji satırı olmadan kullanır. */
+.press-page .doc-body h4 {
+  width: 100%;
+  margin-top: 48px;
+  border: 1px solid var(--c-divider);
+  border-left: 5px solid var(--c-brand-1);
+  border-bottom: 0;
+  border-radius: 10px 10px 0 0;
+  padding: 14px 18px;
+  background: var(--c-bg-elv);
+}
+
+.press-page .doc-body h4+p,
+.press-page .doc-body h4+p+p {
+  margin: 0;
+  border-right: 1px solid var(--c-divider);
+  border-left: 1px solid var(--c-divider);
+  padding-right: 18px;
+  padding-left: 22px;
+}
+
+.press-page .doc-body h4+p {
+  padding-top: 14px;
+  padding-bottom: 8px;
+  line-height: 26px;
+  overflow-wrap: anywhere;
+}
+
+.press-page .doc-body h4+p+p {
+  border-bottom: 1px solid var(--c-divider);
+  border-radius: 0 0 10px 10px;
+  padding-top: 12px;
+  padding-bottom: 18px;
+}
+
+.press-page .doc-body h4+p a {
+  font-weight: 400;
+  text-decoration-color: var(--c-divider);
+}
+
+@media (min-width: 768px) {
+  .projects-page .doc-body h4 {
+    padding-right: 22px;
+    padding-left: 22px;
+  }
+
+  .projects-page .doc-body h4+p,
+  .projects-page .doc-body h4+p+p,
+  .projects-page .doc-body h4+p+p+p {
+    padding-right: 22px;
+    padding-left: 26px;
+  }
+
+  .press-page .doc-body h4 {
+    padding-right: 22px;
+    padding-left: 22px;
+  }
+
+  .press-page .doc-body h4+p,
+  .press-page .doc-body h4+p+p {
+    padding-right: 22px;
+    padding-left: 26px;
+  }
 }
 
 .doc-body p {
@@ -792,7 +915,7 @@ html:has(.nav-toggle:checked) {
   font-style: italic;
 }
 
-.doc-body li + li {
+.doc-body li+li {
   margin-top: 8px;
 }
 
@@ -803,7 +926,7 @@ html:has(.nav-toggle:checked) {
 }
 
 /* Satır içi kod (teknoloji etiketleri) */
-.doc-body :not(pre) > code {
+.doc-body :not(pre)>code {
   border-radius: 4px;
   padding: 3px 6px;
   font-size: var(--code-font-size);
@@ -812,10 +935,10 @@ html:has(.nav-toggle:checked) {
   transition: color 0.25s, background-color 0.5s;
 }
 
-.doc-body h1 > code,
-.doc-body h2 > code,
-.doc-body h3 > code,
-.doc-body h4 > code {
+.doc-body h1>code,
+.doc-body h2>code,
+.doc-body h3>code,
+.doc-body h4>code {
   font-size: 0.9em;
   color: inherit;
 }
@@ -838,13 +961,13 @@ html:has(.nav-toggle:checked) {
   background-color: var(--badge-info-bg);
 }
 
-.doc-body h3 > .badge {
+.doc-body h3>.badge {
   vertical-align: middle;
 }
 
-.doc-body h4 > .badge,
-.doc-body h5 > .badge,
-.doc-body h6 > .badge {
+.doc-body h4>.badge,
+.doc-body h5>.badge,
+.doc-body h6>.badge {
   vertical-align: middle;
   line-height: 18px;
 }

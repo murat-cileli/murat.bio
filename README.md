@@ -7,7 +7,7 @@ Her sayfanın başındaki `page_title`, `page_description`, `page_id` (gerekirse
 Yerelde çalıştırmak için:
 
 ```sh
-docker compose up --build
+docker compose up
 ```
 
-Siteyi [http://localhost:8080](http://localhost:8080) adresinde açın. Durdurmak için `docker compose down` kullanın.
+Siteyi [http://localhost:8080](http://localhost:8080) adresinde açın. Kaynak dosyalar proje kök dizininden salt okunur olarak bağlandığı için değişiklikler yeniden imaj oluşturmadan görünür. Durdurmak için `docker compose down` kullanın.

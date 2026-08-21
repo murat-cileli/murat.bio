@@ -101,7 +101,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   color: var(--c-text-1);
-  background-color: var(--c-bg);
+  background-color: transparent;
   font-synthesis: style;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -243,9 +243,190 @@ button {
    -------------------------------------------------------------------------- */
 
 .layout {
+  position: relative;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+}
+
+/* İcindekiler PWA ile aynı hareketli orb arka planı. */
+.floating-orbs {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.orb {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(70px);
+  will-change: transform;
+  opacity: .1 !important;
+}
+
+.orb-1 {
+  top: -10%;
+  left: -8%;
+  width: 320px;
+  height: 320px;
+  animation: float-orb-1 8s ease-in-out infinite;
+}
+
+.orb-2 {
+  top: 55%;
+  left: 70%;
+  width: 380px;
+  height: 380px;
+  animation: float-orb-2 10s ease-in-out infinite;
+}
+
+.orb-3 {
+  top: 70%;
+  left: 5%;
+  width: 260px;
+  height: 260px;
+  animation: float-orb-3 6.67s ease-in-out infinite;
+}
+
+.orb-4 {
+  top: 5%;
+  left: 60%;
+  width: 220px;
+  height: 220px;
+  animation: float-orb-4 8.67s ease-in-out infinite;
+}
+
+@media (prefers-color-scheme: light) {
+  .orb-1 {
+    background: radial-gradient(circle at 30% 30%, #0b0310, #ff6f91);
+    opacity: 0.25;
+  }
+
+  .orb-2 {
+    background: radial-gradient(circle at 30% 30%, #a1c4fd, #6a8dff);
+    opacity: 0.25;
+  }
+
+  .orb-3 {
+    background: radial-gradient(circle at 30% 30%, #a8edea, #4fd1c5);
+    opacity: 0.25;
+  }
+
+  .orb-4 {
+    background: radial-gradient(circle at 30% 30%, #fbc2eb, #d68bff);
+    opacity: 0.25;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .orb-1 {
+    background: radial-gradient(circle at 30% 30%, #ff6f91, #b3325c);
+    opacity: 0.25;
+  }
+
+  .orb-2 {
+    background: radial-gradient(circle at 30% 30%, #4d6fff, #1f2d99);
+    opacity: 0.25;
+  }
+
+  .orb-3 {
+    background: radial-gradient(circle at 30% 30%, #2fd6c2, #146b60);
+    opacity: 0.25;
+  }
+
+  .orb-4 {
+    background: radial-gradient(circle at 30% 30%, #b96bff, #5a1f99);
+    opacity: 0.25;
+  }
+}
+
+@keyframes float-orb-1 {
+
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+
+  25% {
+    transform: translate(180px, 260px) scale(1.2);
+  }
+
+  50% {
+    transform: translate(-140px, 320px) scale(0.85);
+  }
+
+  75% {
+    transform: translate(-220px, -100px) scale(1.1);
+  }
+}
+
+@keyframes float-orb-2 {
+
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+
+  25% {
+    transform: translate(-260px, -160px) scale(0.9);
+  }
+
+  50% {
+    transform: translate(-120px, 220px) scale(1.25);
+  }
+
+  75% {
+    transform: translate(200px, 140px) scale(1);
+  }
+}
+
+@keyframes float-orb-3 {
+
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+
+  25% {
+    transform: translate(220px, -180px) scale(1.15);
+  }
+
+  50% {
+    transform: translate(280px, 120px) scale(0.9);
+  }
+
+  75% {
+    transform: translate(-100px, 200px) scale(1.2);
+  }
+}
+
+@keyframes float-orb-4 {
+
+  0%,
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
+
+  25% {
+    transform: translate(-180px, 220px) scale(1.1);
+  }
+
+  50% {
+    transform: translate(200px, 260px) scale(0.85);
+  }
+
+  75% {
+    transform: translate(240px, -140px) scale(1.15);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .orb {
+    animation: none;
+  }
 }
 
 /* --------------------------------------------------------------------------
@@ -264,7 +445,6 @@ button {
   position: relative;
   height: var(--nav-height);
   white-space: nowrap;
-  background-color: var(--c-bg);
   transition: background-color 0.25s;
 }
 
@@ -985,8 +1165,6 @@ html:has(.nav-toggle:checked) {
   max-width: var(--layout-width);
   border-top: 1px solid var(--c-gutter);
   padding: 32px 24px;
-  background-color: var(--c-bg);
-  opacity: 0.7;
 }
 
 @media (min-width: 768px) {

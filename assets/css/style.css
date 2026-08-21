@@ -772,7 +772,6 @@ html:has(.nav-toggle:checked) {
 .projects-page .doc-body h4+p+p+p {
   border-bottom: 1px solid var(--c-divider);
   border-radius: 0 0 10px 10px;
-  padding-top: 12px;
   padding-bottom: 18px;
 }
 
@@ -817,7 +816,6 @@ html:has(.nav-toggle:checked) {
 .press-page .doc-body h4+p+p {
   border-bottom: 1px solid var(--c-divider);
   border-radius: 0 0 10px 10px;
-  padding-top: 12px;
   padding-bottom: 18px;
 }
 

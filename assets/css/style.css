@@ -625,7 +625,6 @@ html:has(.nav-toggle:checked) {
   border-bottom: 1px solid var(--c-divider);
   padding: 12px 0 11px;
   line-height: 24px;
-  font-size: 16px;
   font-weight: 500;
   color: var(--c-text-1);
   transition: border-color 0.25s, color 0.25s;
